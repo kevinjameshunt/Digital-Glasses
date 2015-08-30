@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04FC26661B9363EE002D7458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26651B9363EE002D7458 /* main.m */; };
+		04FC26691B9363EE002D7458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26681B9363EE002D7458 /* AppDelegate.m */; };
+		04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */; };
+		04FC266F1B9363EE002D7458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266E1B9363EE002D7458 /* ViewController.m */; };
+		04FC26721B9363EE002D7458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26701B9363EE002D7458 /* Main.storyboard */; };
+		04FC26741B9363EE002D7458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26731B9363EE002D7458 /* Images.xcassets */; };
+		04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26751B9363EE002D7458 /* LaunchScreen.xib */; };
+		04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26821B9363EE002D7458 /* iSight2Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FC267D1B9363EE002D7458 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC26581B9363EE002D7458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04FC265F1B9363EE002D7458;
+			remoteInfo = iSight2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FC26601B9363EE002D7458 /* iSight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC26641B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC26651B9363EE002D7458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04FC26671B9363EE002D7458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04FC26681B9363EE002D7458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FC266B1B9363EE002D7458 /* iSight2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSight2.xcdatamodel; sourceTree = "<group>"; };
+		04FC266D1B9363EE002D7458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04FC266E1B9363EE002D7458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FC26711B9363EE002D7458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04FC26731B9363EE002D7458 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04FC26761B9363EE002D7458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		04FC267C1B9363EE002D7458 /* iSight2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSight2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04FC26811B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04FC26821B9363EE002D7458 /* iSight2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSight2Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04FC265D1B9363EE002D7458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC26791B9363EE002D7458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04FC26571B9363EE002D7458 = {
+			isa = PBXGroup;
+			children = (
+				04FC26621B9363EE002D7458 /* iSight2 */,
+				04FC267F1B9363EE002D7458 /* iSight2Tests */,
+				04FC26611B9363EE002D7458 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04FC26611B9363EE002D7458 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26601B9363EE002D7458 /* iSight2.app */,
+				04FC267C1B9363EE002D7458 /* iSight2Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04FC26621B9363EE002D7458 /* iSight2 */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26671B9363EE002D7458 /* AppDelegate.h */,
+				04FC26681B9363EE002D7458 /* AppDelegate.m */,
+				04FC266D1B9363EE002D7458 /* ViewController.h */,
+				04FC266E1B9363EE002D7458 /* ViewController.m */,
+				04FC26701B9363EE002D7458 /* Main.storyboard */,
+				04FC26731B9363EE002D7458 /* Images.xcassets */,
+				04FC26751B9363EE002D7458 /* LaunchScreen.xib */,
+				04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */,
+				04FC26631B9363EE002D7458 /* Supporting Files */,
+			);
+			path = iSight2;
+			sourceTree = "<group>";
+		};
+		04FC26631B9363EE002D7458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26641B9363EE002D7458 /* Info.plist */,
+				04FC26651B9363EE002D7458 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04FC267F1B9363EE002D7458 /* iSight2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26821B9363EE002D7458 /* iSight2Tests.m */,
+				04FC26801B9363EE002D7458 /* Supporting Files */,
+			);
+			path = iSight2Tests;
+			sourceTree = "<group>";
+		};
+		04FC26801B9363EE002D7458 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04FC26811B9363EE002D7458 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04FC265F1B9363EE002D7458 /* iSight2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC26861B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2" */;
+			buildPhases = (
+				04FC265C1B9363EE002D7458 /* Sources */,
+				04FC265D1B9363EE002D7458 /* Frameworks */,
+				04FC265E1B9363EE002D7458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSight2;
+			productName = iSight2;
+			productReference = 04FC26601B9363EE002D7458 /* iSight2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04FC267B1B9363EE002D7458 /* iSight2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC26891B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2Tests" */;
+			buildPhases = (
+				04FC26781B9363EE002D7458 /* Sources */,
+				04FC26791B9363EE002D7458 /* Frameworks */,
+				04FC267A1B9363EE002D7458 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04FC267E1B9363EE002D7458 /* PBXTargetDependency */,
+			);
+			name = iSight2Tests;
+			productName = iSight2Tests;
+			productReference = 04FC267C1B9363EE002D7458 /* iSight2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04FC26581B9363EE002D7458 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ProphetStudios;
+				TargetAttributes = {
+					04FC265F1B9363EE002D7458 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					04FC267B1B9363EE002D7458 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 04FC265F1B9363EE002D7458;
+					};
+				};
+			};
+			buildConfigurationList = 04FC265B1B9363EE002D7458 /* Build configuration list for PBXProject "iSight2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04FC26571B9363EE002D7458;
+			productRefGroup = 04FC26611B9363EE002D7458 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04FC265F1B9363EE002D7458 /* iSight2 */,
+				04FC267B1B9363EE002D7458 /* iSight2Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04FC265E1B9363EE002D7458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC26721B9363EE002D7458 /* Main.storyboard in Resources */,
+				04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */,
+				04FC26741B9363EE002D7458 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC267A1B9363EE002D7458 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04FC265C1B9363EE002D7458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC26691B9363EE002D7458 /* AppDelegate.m in Sources */,
+				04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */,
+				04FC266F1B9363EE002D7458 /* ViewController.m in Sources */,
+				04FC26661B9363EE002D7458 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04FC26781B9363EE002D7458 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04FC267E1B9363EE002D7458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04FC265F1B9363EE002D7458 /* iSight2 */;
+			targetProxy = 04FC267D1B9363EE002D7458 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04FC26701B9363EE002D7458 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC26711B9363EE002D7458 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04FC26751B9363EE002D7458 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04FC26761B9363EE002D7458 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04FC26841B9363EE002D7458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04FC26851B9363EE002D7458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04FC26871B9363EE002D7458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSight2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04FC26881B9363EE002D7458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iSight2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04FC268A1B9363EE002D7458 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSight2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSight2.app/iSight2";
+			};
+			name = Debug;
+		};
+		04FC268B1B9363EE002D7458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iSight2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSight2.app/iSight2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04FC265B1B9363EE002D7458 /* Build configuration list for PBXProject "iSight2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC26841B9363EE002D7458 /* Debug */,
+				04FC26851B9363EE002D7458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04FC26861B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC26871B9363EE002D7458 /* Debug */,
+				04FC26881B9363EE002D7458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04FC26891B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04FC268A1B9363EE002D7458 /* Debug */,
+				04FC268B1B9363EE002D7458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FC266B1B9363EE002D7458 /* iSight2.xcdatamodel */,
+			);
+			currentVersion = 04FC266B1B9363EE002D7458 /* iSight2.xcdatamodel */;
+			path = iSight2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 04FC26581B9363EE002D7458 /* Project object */;
+}

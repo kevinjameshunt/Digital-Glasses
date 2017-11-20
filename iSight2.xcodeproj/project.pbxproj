@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		0419739F1BA155B50093A30E /* ISFilterImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419739E1BA155B50093A30E /* ISFilterImageFactory.m */; };
 		044405D51B953B68000CCA9F /* ISFilterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 044405D41B953B68000CCA9F /* ISFilterBase.m */; };
-		044405D81B953CFC000CCA9F /* DGCapturePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044405D71B953CFC000CCA9F /* DGCapturePreviewViewController.m */; };
 		04542E8D1EE89CF20086B4AD /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04542E8C1EE89CDC0086B4AD /* LaunchImage.png */; };
 		046F38D61EBA181500FB88BE /* iCadeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F38D41EBA181500FB88BE /* iCadeReaderView.m */; };
+		047576C71FC2652A00C8E45B /* DGCapturePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 047576C61FC2652A00C8E45B /* DGCapturePreviewViewController.m */; };
 		04A7A0FA1EB6342400DD3EA4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A0F81EB6342400DD3EA4 /* Interface.storyboard */; };
 		04A7A0FC1EB6342400DD3EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A0FB1EB6342400DD3EA4 /* Assets.xcassets */; };
 		04A7A1031EB6342400DD3EA4 /* WatchControl Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04A7A1021EB6342400DD3EA4 /* WatchControl Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -89,8 +89,6 @@
 		0419739E1BA155B50093A30E /* ISFilterImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISFilterImageFactory.m; path = Filters/ISFilterImageFactory.m; sourceTree = "<group>"; };
 		044405D31B953B68000CCA9F /* ISFilterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISFilterBase.h; sourceTree = "<group>"; };
 		044405D41B953B68000CCA9F /* ISFilterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISFilterBase.m; sourceTree = "<group>"; };
-		044405D61B953CFC000CCA9F /* DGCapturePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGCapturePreviewViewController.h; path = "FastttCamera-master/FiltersExample/FastttCameraDemo/DGCapturePreviewViewController.h"; sourceTree = SOURCE_ROOT; };
-		044405D71B953CFC000CCA9F /* DGCapturePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGCapturePreviewViewController.m; path = "FastttCamera-master/FiltersExample/FastttCameraDemo/DGCapturePreviewViewController.m"; sourceTree = SOURCE_ROOT; };
 		04542E891EE89B820086B4AD /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
 		04542E8A1EE89B820086B4AD /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
 		04542E8B1EE89B820086B4AD /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
@@ -98,6 +96,8 @@
 		046F38D31EBA181500FB88BE /* iCadeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeReaderView.h; sourceTree = "<group>"; };
 		046F38D41EBA181500FB88BE /* iCadeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCadeReaderView.m; sourceTree = "<group>"; };
 		046F38D51EBA181500FB88BE /* iCadeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeState.h; sourceTree = "<group>"; };
+		047576C51FC2652900C8E45B /* DGCapturePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGCapturePreviewViewController.h; path = "FastttCamera-master/FastttCamera/DGCapturePreviewViewController.h"; sourceTree = SOURCE_ROOT; };
+		047576C61FC2652A00C8E45B /* DGCapturePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGCapturePreviewViewController.m; path = "FastttCamera-master/FastttCamera/DGCapturePreviewViewController.m"; sourceTree = SOURCE_ROOT; };
 		04A7A0F61EB6342400DD3EA4 /* WatchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A7A0F91EB6342400DD3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		04A7A0FB1EB6342400DD3EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -244,8 +244,8 @@
 				046F38D21EBA181500FB88BE /* iCade */,
 				04FDF79B1B9A2A0700E01984 /* Pebble */,
 				CE1AACEB1B9ABBF900B2572D /* Filters */,
-				044405D61B953CFC000CCA9F /* DGCapturePreviewViewController.h */,
-				044405D71B953CFC000CCA9F /* DGCapturePreviewViewController.m */,
+				047576C51FC2652900C8E45B /* DGCapturePreviewViewController.h */,
+				047576C61FC2652A00C8E45B /* DGCapturePreviewViewController.m */,
 				04FC26671B9363EE002D7458 /* DGAppDelegate.h */,
 				04FC26681B9363EE002D7458 /* DGAppDelegate.m */,
 				04FC266D1B9363EE002D7458 /* ISRootViewController.h */,
@@ -548,11 +548,11 @@
 			files = (
 				04FC26691B9363EE002D7458 /* DGAppDelegate.m in Sources */,
 				CE1AACEA1B9ABBF300B2572D /* ISFilterRange.m in Sources */,
+				047576C71FC2652A00C8E45B /* DGCapturePreviewViewController.m in Sources */,
 				04BDE6511BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.m in Sources */,
 				04FDF79F1B9A2A0700E01984 /* ISPebbleCommunicator.m in Sources */,
 				044405D51B953B68000CCA9F /* ISFilterBase.m in Sources */,
 				04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */,
-				044405D81B953CFC000CCA9F /* DGCapturePreviewViewController.m in Sources */,
 				04FC266F1B9363EE002D7458 /* ISRootViewController.m in Sources */,
 				046F38D61EBA181500FB88BE /* iCadeReaderView.m in Sources */,
 				04FC26661B9363EE002D7458 /* main.m in Sources */,

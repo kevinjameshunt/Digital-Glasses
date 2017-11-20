@@ -1,0 +1,1 @@
+../../../../FastttCamera-master/FastttCamera/FastttCameraTypes.h

@@ -1,0 +1,6 @@
+#include "FastttCamera.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/FastttCamera" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/FastttCamera" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/PebbleKit" "${PODS_ROOT}/Headers/Public/PebbleKit/PebbleKit" "${PODS_ROOT}/Headers/Public/PebbleKit/PebbleVendor"
+OTHER_LDFLAGS = ${FASTTTCAMERA_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

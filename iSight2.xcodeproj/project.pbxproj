@@ -7,17 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0419739F1BA155B50093A30E /* ISFilterImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0419739E1BA155B50093A30E /* ISFilterImageFactory.m */; };
+		044405D51B953B68000CCA9F /* ISFilterBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 044405D41B953B68000CCA9F /* ISFilterBase.m */; };
+		044405D81B953CFC000CCA9F /* DGCapturePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044405D71B953CFC000CCA9F /* DGCapturePreviewViewController.m */; };
+		04542E8D1EE89CF20086B4AD /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 04542E8C1EE89CDC0086B4AD /* LaunchImage.png */; };
+		046F38D61EBA181500FB88BE /* iCadeReaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F38D41EBA181500FB88BE /* iCadeReaderView.m */; };
+		04A7A0FA1EB6342400DD3EA4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A0F81EB6342400DD3EA4 /* Interface.storyboard */; };
+		04A7A0FC1EB6342400DD3EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A0FB1EB6342400DD3EA4 /* Assets.xcassets */; };
+		04A7A1031EB6342400DD3EA4 /* WatchControl Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04A7A1021EB6342400DD3EA4 /* WatchControl Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04A7A1091EB6342400DD3EA4 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A1081EB6342400DD3EA4 /* InterfaceController.m */; };
+		04A7A10C1EB6342400DD3EA4 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A10B1EB6342400DD3EA4 /* ExtensionDelegate.m */; };
+		04A7A10E1EB6342400DD3EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7A10D1EB6342400DD3EA4 /* Assets.xcassets */; };
+		04A7A1121EB6342400DD3EA4 /* WatchControl.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04A7A0F61EB6342400DD3EA4 /* WatchControl.app */; };
+		04A7A11D1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A11C1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m */; };
+		04A7A1211EB643E800DD3EA4 /* ISControlsTableViewRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */; };
+		04BDE6511BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDE6501BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.m */; };
 		04FC26661B9363EE002D7458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26651B9363EE002D7458 /* main.m */; };
-		04FC26691B9363EE002D7458 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26681B9363EE002D7458 /* AppDelegate.m */; };
+		04FC26691B9363EE002D7458 /* DGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26681B9363EE002D7458 /* DGAppDelegate.m */; };
 		04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */; };
-		04FC266F1B9363EE002D7458 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266E1B9363EE002D7458 /* ViewController.m */; };
+		04FC266F1B9363EE002D7458 /* ISRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266E1B9363EE002D7458 /* ISRootViewController.m */; };
 		04FC26721B9363EE002D7458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26701B9363EE002D7458 /* Main.storyboard */; };
 		04FC26741B9363EE002D7458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26731B9363EE002D7458 /* Images.xcassets */; };
 		04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26751B9363EE002D7458 /* LaunchScreen.xib */; };
 		04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26821B9363EE002D7458 /* iSight2Tests.m */; };
+		04FDF79F1B9A2A0700E01984 /* ISPebbleCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */; };
+		5FE2EF4544DB65DB53521184 /* libPods-iSight2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF72DD428AA4706C5C21FF4B /* libPods-iSight2.a */; };
+		CE1AACEA1B9ABBF300B2572D /* ISFilterRange.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AACE91B9ABBF300B2572D /* ISFilterRange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		04A7A1041EB6342400DD3EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC26581B9363EE002D7458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A7A1011EB6342400DD3EA4;
+			remoteInfo = "WatchControl Extension";
+		};
+		04A7A1101EB6342400DD3EA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04FC26581B9363EE002D7458 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A7A0F51EB6342400DD3EA4;
+			remoteInfo = WatchControl;
+		};
 		04FC267D1B9363EE002D7458 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 04FC26581B9363EE002D7458 /* Project object */;
@@ -27,28 +59,99 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04A7A1181EB6342400DD3EA4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04A7A1031EB6342400DD3EA4 /* WatchControl Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A7A11A1EB6342400DD3EA4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				04A7A1121EB6342400DD3EA4 /* WatchControl.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0419739D1BA155B50093A30E /* ISFilterImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISFilterImageFactory.h; path = Filters/ISFilterImageFactory.h; sourceTree = "<group>"; };
+		0419739E1BA155B50093A30E /* ISFilterImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISFilterImageFactory.m; path = Filters/ISFilterImageFactory.m; sourceTree = "<group>"; };
+		044405D31B953B68000CCA9F /* ISFilterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISFilterBase.h; sourceTree = "<group>"; };
+		044405D41B953B68000CCA9F /* ISFilterBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISFilterBase.m; sourceTree = "<group>"; };
+		044405D61B953CFC000CCA9F /* DGCapturePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGCapturePreviewViewController.h; path = "FastttCamera-master/FiltersExample/FastttCameraDemo/DGCapturePreviewViewController.h"; sourceTree = SOURCE_ROOT; };
+		044405D71B953CFC000CCA9F /* DGCapturePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGCapturePreviewViewController.m; path = "FastttCamera-master/FiltersExample/FastttCameraDemo/DGCapturePreviewViewController.m"; sourceTree = SOURCE_ROOT; };
+		04542E891EE89B820086B4AD /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		04542E8A1EE89B820086B4AD /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		04542E8B1EE89B820086B4AD /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		04542E8C1EE89CDC0086B4AD /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		046F38D31EBA181500FB88BE /* iCadeReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeReaderView.h; sourceTree = "<group>"; };
+		046F38D41EBA181500FB88BE /* iCadeReaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCadeReaderView.m; sourceTree = "<group>"; };
+		046F38D51EBA181500FB88BE /* iCadeState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCadeState.h; sourceTree = "<group>"; };
+		04A7A0F61EB6342400DD3EA4 /* WatchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A7A0F91EB6342400DD3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		04A7A0FB1EB6342400DD3EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A7A0FD1EB6342400DD3EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A7A1021EB6342400DD3EA4 /* WatchControl Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchControl Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A7A1071EB6342400DD3EA4 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		04A7A1081EB6342400DD3EA4 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		04A7A10A1EB6342400DD3EA4 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		04A7A10B1EB6342400DD3EA4 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		04A7A10D1EB6342400DD3EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A7A10F1EB6342400DD3EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A7A11B1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISSingleControlInterfaceController.h; sourceTree = "<group>"; };
+		04A7A11C1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISSingleControlInterfaceController.m; sourceTree = "<group>"; };
+		04A7A11E1EB63AF300DD3EA4 /* ISConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISConstants.h; sourceTree = "<group>"; };
+		04A7A11F1EB643E800DD3EA4 /* ISControlsTableViewRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISControlsTableViewRowController.h; sourceTree = "<group>"; };
+		04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISControlsTableViewRowController.m; sourceTree = "<group>"; };
+		04BDE64F1BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISTestingUIOptionTableViewCell.h; sourceTree = "<group>"; };
+		04BDE6501BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISTestingUIOptionTableViewCell.m; sourceTree = "<group>"; };
 		04FC26601B9363EE002D7458 /* iSight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC26641B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC26651B9363EE002D7458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		04FC26671B9363EE002D7458 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		04FC26681B9363EE002D7458 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04FC26671B9363EE002D7458 /* DGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DGAppDelegate.h; sourceTree = "<group>"; };
+		04FC26681B9363EE002D7458 /* DGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGAppDelegate.m; sourceTree = "<group>"; };
 		04FC266B1B9363EE002D7458 /* iSight2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iSight2.xcdatamodel; sourceTree = "<group>"; };
-		04FC266D1B9363EE002D7458 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		04FC266E1B9363EE002D7458 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04FC266D1B9363EE002D7458 /* ISRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISRootViewController.h; sourceTree = "<group>"; };
+		04FC266E1B9363EE002D7458 /* ISRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISRootViewController.m; sourceTree = "<group>"; };
 		04FC26711B9363EE002D7458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04FC26731B9363EE002D7458 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		04FC26761B9363EE002D7458 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		04FC267C1B9363EE002D7458 /* iSight2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSight2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC26811B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC26821B9363EE002D7458 /* iSight2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSight2Tests.m; sourceTree = "<group>"; };
+		04FDF79C1B9A2A0700E01984 /* ISPebbleCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPebbleCommunicator.h; sourceTree = "<group>"; };
+		04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPebbleCommunicator.m; sourceTree = "<group>"; };
+		15DF3D6F96450A9539838226 /* Pods-iSight2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.debug.xcconfig"; sourceTree = "<group>"; };
+		B31DFE20ADC7F815F5EA2FDD /* Pods-iSight2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.release.xcconfig"; sourceTree = "<group>"; };
+		CE1AACE81B9ABBF300B2572D /* ISFilterRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ISFilterRange.h; path = Filters/ISFilterRange.h; sourceTree = "<group>"; };
+		CE1AACE91B9ABBF300B2572D /* ISFilterRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ISFilterRange.m; path = Filters/ISFilterRange.m; sourceTree = "<group>"; };
+		CF72DD428AA4706C5C21FF4B /* libPods-iSight2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSight2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04A7A0FF1EB6342400DD3EA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FC265D1B9363EE002D7458 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE2EF4544DB65DB53521184 /* libPods-iSight2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +165,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04542E881EE89B820086B4AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04542E8C1EE89CDC0086B4AD /* LaunchImage.png */,
+				04542E891EE89B820086B4AD /* iTunesArtwork@1x.png */,
+				04542E8A1EE89B820086B4AD /* iTunesArtwork@2x.png */,
+				04542E8B1EE89B820086B4AD /* iTunesArtwork@3x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		046F38D21EBA181500FB88BE /* iCade */ = {
+			isa = PBXGroup;
+			children = (
+				046F38D31EBA181500FB88BE /* iCadeReaderView.h */,
+				046F38D41EBA181500FB88BE /* iCadeReaderView.m */,
+				046F38D51EBA181500FB88BE /* iCadeState.h */,
+			);
+			name = iCade;
+			path = "submodules/iCade-iOS/iCadeTest/iCade";
+			sourceTree = SOURCE_ROOT;
+		};
+		04A7A0F71EB6342400DD3EA4 /* WatchControl */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A0F81EB6342400DD3EA4 /* Interface.storyboard */,
+				04A7A0FB1EB6342400DD3EA4 /* Assets.xcassets */,
+				04A7A0FD1EB6342400DD3EA4 /* Info.plist */,
+			);
+			path = WatchControl;
+			sourceTree = "<group>";
+		};
+		04A7A1061EB6342400DD3EA4 /* WatchControl Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04A7A1071EB6342400DD3EA4 /* InterfaceController.h */,
+				04A7A1081EB6342400DD3EA4 /* InterfaceController.m */,
+				04A7A11B1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.h */,
+				04A7A11C1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m */,
+				04A7A11F1EB643E800DD3EA4 /* ISControlsTableViewRowController.h */,
+				04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */,
+				04A7A10A1EB6342400DD3EA4 /* ExtensionDelegate.h */,
+				04A7A10B1EB6342400DD3EA4 /* ExtensionDelegate.m */,
+				04A7A10D1EB6342400DD3EA4 /* Assets.xcassets */,
+				04A7A10F1EB6342400DD3EA4 /* Info.plist */,
+			);
+			path = "WatchControl Extension";
+			sourceTree = "<group>";
+		};
 		04FC26571B9363EE002D7458 = {
 			isa = PBXGroup;
 			children = (
 				04FC26621B9363EE002D7458 /* iSight2 */,
 				04FC267F1B9363EE002D7458 /* iSight2Tests */,
+				04A7A0F71EB6342400DD3EA4 /* WatchControl */,
+				04A7A1061EB6342400DD3EA4 /* WatchControl Extension */,
 				04FC26611B9363EE002D7458 /* Products */,
+				ED0D54D21AD51C0B2C8DA72D /* Pods */,
+				BF086576A6518A7E3954C49B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +232,8 @@
 			children = (
 				04FC26601B9363EE002D7458 /* iSight2.app */,
 				04FC267C1B9363EE002D7458 /* iSight2Tests.xctest */,
+				04A7A0F61EB6342400DD3EA4 /* WatchControl.app */,
+				04A7A1021EB6342400DD3EA4 /* WatchControl Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -83,14 +241,23 @@
 		04FC26621B9363EE002D7458 /* iSight2 */ = {
 			isa = PBXGroup;
 			children = (
-				04FC26671B9363EE002D7458 /* AppDelegate.h */,
-				04FC26681B9363EE002D7458 /* AppDelegate.m */,
-				04FC266D1B9363EE002D7458 /* ViewController.h */,
-				04FC266E1B9363EE002D7458 /* ViewController.m */,
+				046F38D21EBA181500FB88BE /* iCade */,
+				04FDF79B1B9A2A0700E01984 /* Pebble */,
+				CE1AACEB1B9ABBF900B2572D /* Filters */,
+				044405D61B953CFC000CCA9F /* DGCapturePreviewViewController.h */,
+				044405D71B953CFC000CCA9F /* DGCapturePreviewViewController.m */,
+				04FC26671B9363EE002D7458 /* DGAppDelegate.h */,
+				04FC26681B9363EE002D7458 /* DGAppDelegate.m */,
+				04FC266D1B9363EE002D7458 /* ISRootViewController.h */,
+				04FC266E1B9363EE002D7458 /* ISRootViewController.m */,
+				04BDE64F1BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.h */,
+				04BDE6501BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.m */,
+				04A7A11E1EB63AF300DD3EA4 /* ISConstants.h */,
 				04FC26701B9363EE002D7458 /* Main.storyboard */,
 				04FC26731B9363EE002D7458 /* Images.xcassets */,
 				04FC26751B9363EE002D7458 /* LaunchScreen.xib */,
 				04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */,
+				04542E881EE89B820086B4AD /* Resources */,
 				04FC26631B9363EE002D7458 /* Supporting Files */,
 			);
 			path = iSight2;
@@ -122,20 +289,97 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		04FDF79B1B9A2A0700E01984 /* Pebble */ = {
+			isa = PBXGroup;
+			children = (
+				04FDF79C1B9A2A0700E01984 /* ISPebbleCommunicator.h */,
+				04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */,
+			);
+			path = Pebble;
+			sourceTree = "<group>";
+		};
+		BF086576A6518A7E3954C49B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF72DD428AA4706C5C21FF4B /* libPods-iSight2.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE1AACEB1B9ABBF900B2572D /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				0419739D1BA155B50093A30E /* ISFilterImageFactory.h */,
+				0419739E1BA155B50093A30E /* ISFilterImageFactory.m */,
+				044405D31B953B68000CCA9F /* ISFilterBase.h */,
+				044405D41B953B68000CCA9F /* ISFilterBase.m */,
+				CE1AACE81B9ABBF300B2572D /* ISFilterRange.h */,
+				CE1AACE91B9ABBF300B2572D /* ISFilterRange.m */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		ED0D54D21AD51C0B2C8DA72D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15DF3D6F96450A9539838226 /* Pods-iSight2.debug.xcconfig */,
+				B31DFE20ADC7F815F5EA2FDD /* Pods-iSight2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04FC265F1B9363EE002D7458 /* iSight2 */ = {
+		04A7A0F51EB6342400DD3EA4 /* WatchControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04FC26861B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2" */;
+			buildConfigurationList = 04A7A1191EB6342400DD3EA4 /* Build configuration list for PBXNativeTarget "WatchControl" */;
 			buildPhases = (
-				04FC265C1B9363EE002D7458 /* Sources */,
-				04FC265D1B9363EE002D7458 /* Frameworks */,
-				04FC265E1B9363EE002D7458 /* Resources */,
+				04A7A0F41EB6342400DD3EA4 /* Resources */,
+				04A7A1181EB6342400DD3EA4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				04A7A1051EB6342400DD3EA4 /* PBXTargetDependency */,
+			);
+			name = WatchControl;
+			productName = WatchControl;
+			productReference = 04A7A0F61EB6342400DD3EA4 /* WatchControl.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		04A7A1011EB6342400DD3EA4 /* WatchControl Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A7A1171EB6342400DD3EA4 /* Build configuration list for PBXNativeTarget "WatchControl Extension" */;
+			buildPhases = (
+				04A7A0FE1EB6342400DD3EA4 /* Sources */,
+				04A7A0FF1EB6342400DD3EA4 /* Frameworks */,
+				04A7A1001EB6342400DD3EA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchControl Extension";
+			productName = "WatchControl Extension";
+			productReference = 04A7A1021EB6342400DD3EA4 /* WatchControl Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		04FC265F1B9363EE002D7458 /* iSight2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04FC26861B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2" */;
+			buildPhases = (
+				547453A257CA1A31C1FAE3B6 /* Check Pods Manifest.lock */,
+				04FC265C1B9363EE002D7458 /* Sources */,
+				04FC265D1B9363EE002D7458 /* Frameworks */,
+				04FC265E1B9363EE002D7458 /* Resources */,
+				95471D53CEDF734503C7593A /* Copy Pods Resources */,
+				04A7A11A1EB6342400DD3EA4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A7A1111EB6342400DD3EA4 /* PBXTargetDependency */,
 			);
 			name = iSight2;
 			productName = iSight2;
@@ -166,11 +410,27 @@
 		04FC26581B9363EE002D7458 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = ProphetStudios;
 				TargetAttributes = {
+					04A7A0F51EB6342400DD3EA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V8SSGR3H48;
+						ProvisioningStyle = Automatic;
+					};
+					04A7A1011EB6342400DD3EA4 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = V8SSGR3H48;
+						ProvisioningStyle = Automatic;
+					};
 					04FC265F1B9363EE002D7458 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = V8SSGR3H48;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					04FC267B1B9363EE002D7458 = {
 						CreatedOnToolsVersion = 6.4;
@@ -193,15 +453,35 @@
 			targets = (
 				04FC265F1B9363EE002D7458 /* iSight2 */,
 				04FC267B1B9363EE002D7458 /* iSight2Tests */,
+				04A7A0F51EB6342400DD3EA4 /* WatchControl */,
+				04A7A1011EB6342400DD3EA4 /* WatchControl Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		04A7A0F41EB6342400DD3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7A0FC1EB6342400DD3EA4 /* Assets.xcassets in Resources */,
+				04A7A0FA1EB6342400DD3EA4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A7A1001EB6342400DD3EA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7A10E1EB6342400DD3EA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FC265E1B9363EE002D7458 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04542E8D1EE89CF20086B4AD /* LaunchImage.png in Resources */,
 				04FC26721B9363EE002D7458 /* Main.storyboard in Resources */,
 				04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */,
 				04FC26741B9363EE002D7458 /* Images.xcassets in Resources */,
@@ -217,15 +497,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		547453A257CA1A31C1FAE3B6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95471D53CEDF734503C7593A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSight2/Pods-iSight2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		04A7A0FE1EB6342400DD3EA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A7A1211EB643E800DD3EA4 /* ISControlsTableViewRowController.m in Sources */,
+				04A7A10C1EB6342400DD3EA4 /* ExtensionDelegate.m in Sources */,
+				04A7A11D1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m in Sources */,
+				04A7A1091EB6342400DD3EA4 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		04FC265C1B9363EE002D7458 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04FC26691B9363EE002D7458 /* AppDelegate.m in Sources */,
+				04FC26691B9363EE002D7458 /* DGAppDelegate.m in Sources */,
+				CE1AACEA1B9ABBF300B2572D /* ISFilterRange.m in Sources */,
+				04BDE6511BAD1BF500E736B5 /* ISTestingUIOptionTableViewCell.m in Sources */,
+				04FDF79F1B9A2A0700E01984 /* ISPebbleCommunicator.m in Sources */,
+				044405D51B953B68000CCA9F /* ISFilterBase.m in Sources */,
 				04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */,
-				04FC266F1B9363EE002D7458 /* ViewController.m in Sources */,
+				044405D81B953CFC000CCA9F /* DGCapturePreviewViewController.m in Sources */,
+				04FC266F1B9363EE002D7458 /* ISRootViewController.m in Sources */,
+				046F38D61EBA181500FB88BE /* iCadeReaderView.m in Sources */,
 				04FC26661B9363EE002D7458 /* main.m in Sources */,
+				0419739F1BA155B50093A30E /* ISFilterImageFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +571,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		04A7A1051EB6342400DD3EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A7A1011EB6342400DD3EA4 /* WatchControl Extension */;
+			targetProxy = 04A7A1041EB6342400DD3EA4 /* PBXContainerItemProxy */;
+		};
+		04A7A1111EB6342400DD3EA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A7A0F51EB6342400DD3EA4 /* WatchControl */;
+			targetProxy = 04A7A1101EB6342400DD3EA4 /* PBXContainerItemProxy */;
+		};
 		04FC267E1B9363EE002D7458 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 04FC265F1B9363EE002D7458 /* iSight2 */;
@@ -248,6 +589,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		04A7A0F81EB6342400DD3EA4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A7A0F91EB6342400DD3EA4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		04FC26701B9363EE002D7458 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -267,6 +616,94 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		04A7A1131EB6342400DD3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V8SSGR3H48;
+				IBSC_MODULE = WatchControl_Extension;
+				INFOPLIST_FILE = WatchControl/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.iSight2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		04A7A1141EB6342400DD3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = V8SSGR3H48;
+				IBSC_MODULE = WatchControl_Extension;
+				INFOPLIST_FILE = WatchControl/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.iSight2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		04A7A1151EB6342400DD3EA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = V8SSGR3H48;
+				INFOPLIST_FILE = "WatchControl Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.iSight2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		04A7A1161EB6342400DD3EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEVELOPMENT_TEAM = V8SSGR3H48;
+				INFOPLIST_FILE = "WatchControl Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.iSight2.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
 		04FC26841B9363EE002D7458 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -288,6 +725,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -303,7 +741,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +779,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,21 +789,33 @@
 		};
 		04FC26871B9363EE002D7458 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15DF3D6F96450A9539838226 /* Pods-iSight2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iSight2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prophetstudios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		04FC26881B9363EE002D7458 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B31DFE20ADC7F815F5EA2FDD /* Pods-iSight2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = iSight2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prophetstudios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -383,6 +833,7 @@
 				);
 				INFOPLIST_FILE = iSight2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prophetstudios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSight2.app/iSight2";
 			};
@@ -398,6 +849,7 @@
 				);
 				INFOPLIST_FILE = iSight2Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.prophetstudios.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSight2.app/iSight2";
 			};
@@ -406,6 +858,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		04A7A1171EB6342400DD3EA4 /* Build configuration list for PBXNativeTarget "WatchControl Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A7A1151EB6342400DD3EA4 /* Debug */,
+				04A7A1161EB6342400DD3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A7A1191EB6342400DD3EA4 /* Build configuration list for PBXNativeTarget "WatchControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A7A1131EB6342400DD3EA4 /* Debug */,
+				04A7A1141EB6342400DD3EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		04FC265B1B9363EE002D7458 /* Build configuration list for PBXProject "iSight2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -422,6 +892,7 @@
 				04FC26881B9363EE002D7458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04FC26891B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2Tests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +901,7 @@
 				04FC268B1B9363EE002D7458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

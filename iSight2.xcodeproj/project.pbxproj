@@ -50,7 +50,7 @@
 		04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26751B9363EE002D7458 /* LaunchScreen.xib */; };
 		04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26821B9363EE002D7458 /* iSight2Tests.m */; };
 		04FDF79F1B9A2A0700E01984 /* ISPebbleCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */; };
-		5FE2EF4544DB65DB53521184 /* libPods-iSight2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF72DD428AA4706C5C21FF4B /* libPods-iSight2.a */; };
+		7312C722FC7D234C9E441597 /* libPods-iSight2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */; };
 		CE1AACEA1B9ABBF300B2572D /* DGFilterRange.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AACE91B9ABBF300B2572D /* DGFilterRange.m */; };
 /* End PBXBuildFile section */
 
@@ -175,11 +175,11 @@
 		04FC26821B9363EE002D7458 /* iSight2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSight2Tests.m; sourceTree = "<group>"; };
 		04FDF79C1B9A2A0700E01984 /* ISPebbleCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPebbleCommunicator.h; sourceTree = "<group>"; };
 		04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPebbleCommunicator.m; sourceTree = "<group>"; };
-		15DF3D6F96450A9539838226 /* Pods-iSight2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.debug.xcconfig"; sourceTree = "<group>"; };
-		B31DFE20ADC7F815F5EA2FDD /* Pods-iSight2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.release.xcconfig"; sourceTree = "<group>"; };
+		0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSight2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D5D2D8E09C9B9FE5D8246D /* Pods-iSight2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.debug.xcconfig"; sourceTree = "<group>"; };
+		5AD7C023C058C4EEDD2B3325 /* Pods-iSight2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.release.xcconfig"; sourceTree = "<group>"; };
 		CE1AACE81B9ABBF300B2572D /* DGFilterRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGFilterRange.h; path = Filters/DGFilterRange.h; sourceTree = "<group>"; };
 		CE1AACE91B9ABBF300B2572D /* DGFilterRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGFilterRange.m; path = Filters/DGFilterRange.m; sourceTree = "<group>"; };
-		CF72DD428AA4706C5C21FF4B /* libPods-iSight2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSight2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,11 +194,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FE2EF4544DB65DB53521184 /* libPods-iSight2.a in Frameworks */,
+				7312C722FC7D234C9E441597 /* libPods-iSight2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		04FC26791B9363EE002D7458 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A8653669F012ECCE3902931 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -323,8 +330,8 @@
 				04A7A0F71EB6342400DD3EA4 /* WatchControl */,
 				04A7A1061EB6342400DD3EA4 /* WatchControl Extension */,
 				04FC26611B9363EE002D7458 /* Products */,
-				ED0D54D21AD51C0B2C8DA72D /* Pods */,
-				BF086576A6518A7E3954C49B /* Frameworks */,
+				D7A16BAAFA44084409E4C942 /* Pods */,
+				F201207BA7FE6AED536AEEB1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -397,14 +404,6 @@
 			path = Pebble;
 			sourceTree = "<group>";
 		};
-		BF086576A6518A7E3954C49B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CF72DD428AA4706C5C21FF4B /* libPods-iSight2.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		CE1AACEB1B9ABBF900B2572D /* Filters */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,13 +417,21 @@
 			name = Filters;
 			sourceTree = "<group>";
 		};
-		ED0D54D21AD51C0B2C8DA72D /* Pods */ = {
+		D7A16BAAFA44084409E4C942 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				15DF3D6F96450A9539838226 /* Pods-iSight2.debug.xcconfig */,
-				B31DFE20ADC7F815F5EA2FDD /* Pods-iSight2.release.xcconfig */,
+				24D5D2D8E09C9B9FE5D8246D /* Pods-iSight2.debug.xcconfig */,
+				5AD7C023C058C4EEDD2B3325 /* Pods-iSight2.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F201207BA7FE6AED536AEEB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -436,6 +443,7 @@
 			buildPhases = (
 				04A7A0F41EB6342400DD3EA4 /* Resources */,
 				04A7A1181EB6342400DD3EA4 /* Embed App Extensions */,
+				4A8653669F012ECCE3902931 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -468,12 +476,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04FC26861B9363EE002D7458 /* Build configuration list for PBXNativeTarget "iSight2" */;
 			buildPhases = (
-				547453A257CA1A31C1FAE3B6 /* Check Pods Manifest.lock */,
+				371B635F70A61CCA6137448A /* [CP] Check Pods Manifest.lock */,
 				04FC265C1B9363EE002D7458 /* Sources */,
 				04FC265D1B9363EE002D7458 /* Frameworks */,
 				04FC265E1B9363EE002D7458 /* Resources */,
-				95471D53CEDF734503C7593A /* Copy Pods Resources */,
 				04A7A11A1EB6342400DD3EA4 /* Embed Watch Content */,
+				A00A30858BAAD4BADADD99D8 /* [CP] Embed Pods Frameworks */,
+				81F94C87265294EB5FEF83D2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -608,34 +617,62 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		547453A257CA1A31C1FAE3B6 /* Check Pods Manifest.lock */ = {
+		371B635F70A61CCA6137448A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iSight2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		95471D53CEDF734503C7593A /* Copy Pods Resources */ = {
+		81F94C87265294EB5FEF83D2 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iSight2/Pods-iSight2-resources.sh",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_1.png",
+				"${PODS_ROOT}/GPUImage/framework/Resources/lookup_soft_elegance_2.png",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSight2/Pods-iSight2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00A30858BAAD4BADADD99D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iSight2/Pods-iSight2-frameworks.sh",
+				"${PODS_ROOT}/PebbleKit/PebbleKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PebbleKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSight2/Pods-iSight2-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -907,7 +944,7 @@
 		};
 		04FC26871B9363EE002D7458 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 15DF3D6F96450A9539838226 /* Pods-iSight2.debug.xcconfig */;
+			baseConfigurationReference = 24D5D2D8E09C9B9FE5D8246D /* Pods-iSight2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -924,7 +961,7 @@
 		};
 		04FC26881B9363EE002D7458 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B31DFE20ADC7F815F5EA2FDD /* Pods-iSight2.release.xcconfig */;
+			baseConfigurationReference = 5AD7C023C058C4EEDD2B3325 /* Pods-iSight2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

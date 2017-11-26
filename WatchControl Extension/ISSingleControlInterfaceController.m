@@ -1,17 +1,17 @@
 //
 //  ISSingleControlInterfaceController.m
-//  iSight2
+//  DigitalGlasses
 //
 //  Created by Kevin Hunt on 2017-04-30.
 //  Copyright © 2017 ProphetStudios. All rights reserved.
 //
 
 #import "ISSingleControlInterfaceController.h"
-#import "ISConstants.h"
+#import "DGConstants.h"
 #import <WatchConnectivity/WatchConnectivity.h>
 
 @interface ISSingleControlInterfaceController () {
-    MenuItem _currentMenuItem;
+    DGMenuItem _currentDGMenuItem;
 }
 
 @end
@@ -22,35 +22,35 @@
     [super awakeWithContext:context];
     
     // Configure interface objects here.
-    _currentMenuItem = [context integerValue];
-    switch (_currentMenuItem) {
-        case MenuItemZoom:
-            [self.controlLabel setText:@"Zoom"];
+    _currentDGMenuItem = [context integerValue];
+    switch (_currentDGMenuItem) {
+        case DGMenuItemZoom:
+            [self.controlLabel setText:kDGZoomLabel];
             break;
-        case MenuItemBrightness:
-            [self.controlLabel setText:@"Brightness"];
+        case DGMenuItemBrightness:
+            [self.controlLabel setText:kDGBrightnessLabel];
             break;
-        case MenuItemContrast:
-            [self.controlLabel setText:@"Contrast"];
+        case DGMenuItemContrast:
+            [self.controlLabel setText:kDGContrastLabel];
             break;
-        case MenuItemSaturation:
-            [self.controlLabel setText:@"Saturation"];
+        case DGMenuItemSaturation:
+            [self.controlLabel setText:kDGSaturationLabel];
             break;
-        case MenuItemTorch:
-            [self.controlLabel setText:@"Torch"];
+        case DGMenuItemTorch:
+            [self.controlLabel setText:kDGTorchLabel];
             [self.increaseButton setTitle:@"ON"];
             [self.decreaseButton setTitle:@"OFF"];
             break;
-        case MenuItemReset:
-            [self.controlLabel setText:@"Reset"];
+        case DGMenuItemReset:
+            [self.controlLabel setText:kDGResetLabel];
             [self.increaseButton setTitle:@"YES"];
             [self.decreaseButton setTitle:@"CANCEL"];
             break;
-        case MenuItemCaptureImage:
-            [self.controlLabel setText:@"Camera"];
-            [self.increaseButton setTitle:@"CAPTURE"];
-            [self.decreaseButton setTitle:@"CANCEL"];
-            break;
+//        case DGMenuItemCaptureImage:
+//            [self.controlLabel setText:@"Camera"];
+//            [self.increaseButton setTitle:@"CAPTURE"];
+//            [self.decreaseButton setTitle:@"CANCEL"];
+//            break;
             
         default:
             break;
@@ -70,28 +70,28 @@
 - (IBAction)increaseButtonPressed {
     NSString *instructionKey;
     
-    switch (_currentMenuItem) {
-        case MenuItemZoom:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemZoom];
+    switch (_currentDGMenuItem) {
+        case DGMenuItemZoom:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemZoom];
             break;
-        case MenuItemBrightness:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemBrightness];
+        case DGMenuItemBrightness:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemBrightness];
             break;
-        case MenuItemContrast:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemContrast];
+        case DGMenuItemContrast:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemContrast];
             break;
-        case MenuItemSaturation:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemSaturation];
+        case DGMenuItemSaturation:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemSaturation];
             break;
-        case MenuItemTorch:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemTorch];
+        case DGMenuItemTorch:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemTorch];
             break;
-        case MenuItemReset:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemReset];
+        case DGMenuItemReset:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemReset];
             break;
-        case MenuItemCaptureImage:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemCaptureImage];
-            break;
+//        case DGMenuItemCaptureImage:
+//            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemCaptureImage];
+//            break;
             
         default:
             break;
@@ -107,29 +107,29 @@
 - (IBAction)decreaseButtonPressed {
     NSString *instructionKey;
     
-    switch (_currentMenuItem) {
-        case MenuItemZoom:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemZoom];
+    switch (_currentDGMenuItem) {
+        case DGMenuItemZoom:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemZoom];
             break;
-        case MenuItemBrightness:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemBrightness];
+        case DGMenuItemBrightness:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemBrightness];
             break;
-        case MenuItemContrast:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemContrast];
+        case DGMenuItemContrast:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemContrast];
             break;
-        case MenuItemSaturation:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemSaturation];
+        case DGMenuItemSaturation:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemSaturation];
             break;
-        case MenuItemTorch:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemTorch];
+        case DGMenuItemTorch:
+            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemTorch];
             break;
-        case MenuItemReset:
+        case DGMenuItemReset:
             [self popController];
             return;
             break;
-        case MenuItemCaptureImage:
-            instructionKey = [NSString stringWithFormat:@"%d",MenuItemCaptureImage];
-            break;
+//        case DGMenuItemCaptureImage:
+//            instructionKey = [NSString stringWithFormat:@"%d",DGMenuItemCaptureImage];
+//            break;
             
         default:
             break;

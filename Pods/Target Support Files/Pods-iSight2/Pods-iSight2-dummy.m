@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_iSight2 : NSObject
+@interface PodsDummy_Pods_DigitalGlasses : NSObject
 @end
-@implementation PodsDummy_Pods_iSight2
+@implementation PodsDummy_Pods_DigitalGlasses
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "InterfaceController.h"
-#import "ISConstants.h"
+#import "DGConstants.h"
 #import "ISControlsTableViewRowController.h"
 
 @interface InterfaceController ()
@@ -44,7 +44,7 @@
 
 - (void)loadTableViewData {
     if (_watchSession.activationState == WCSessionActivationStateActivated) {
-        [self.tableView setNumberOfRows:MenuItemCount withRowType:kISControlRowIdentifierControl];
+        [self.tableView setNumberOfRows:DGMenuItemCount withRowType:kISControlRowIdentifierControl];
     } else {
         [self.tableView setNumberOfRows:1 withRowType:kISControlRowIdentifierSessionFailed];
     }
@@ -53,30 +53,30 @@
     
     if (_watchSession.activationState == WCSessionActivationStateActivated) {
         // Loop through all menu items and set on table view rows
-        for (int i=0; i<MenuItemCount; i++) {
+        for (int i=0; i<DGMenuItemCount; i++) {
             ISControlsTableViewRowController *controller = [self.tableView rowControllerAtIndex:i];
             switch (i) {
-                case MenuItemZoom:
-                    [controller.controlLabel setText:@"Zoom"];
+                case DGMenuItemZoom:
+                    [controller.controlLabel setText:kDGZoomLabel];
                     break;
-                case MenuItemBrightness:
-                    [controller.controlLabel setText:@"Brightness"];
+                case DGMenuItemBrightness:
+                    [controller.controlLabel setText:kDGBrightnessLabel];
                     break;
-                case MenuItemContrast:
-                    [controller.controlLabel setText:@"Contrast"];
+                case DGMenuItemContrast:
+                    [controller.controlLabel setText:kDGContrastLabel];
                     break;
-                case MenuItemSaturation:
-                    [controller.controlLabel setText:@"Saturation"];
+                case DGMenuItemSaturation:
+                    [controller.controlLabel setText:kDGSaturationLabel];
                     break;
-                case MenuItemTorch:
-                    [controller.controlLabel setText:@"Torch"];
+                case DGMenuItemTorch:
+                    [controller.controlLabel setText:kDGTorchLabel];
                     break;
-                case MenuItemReset:
-                    [controller.controlLabel setText:@"Reset"];
+                case DGMenuItemReset:
+                    [controller.controlLabel setText:kDGResetLabel];
                     break;
-                case MenuItemCaptureImage:
-                    [controller.controlLabel setText:@"Camera"];
-                    break;
+//                case DGMenuItemCaptureImage:
+//                    [controller.controlLabel setText:@"Camera"];
+//                    break;
                     
                 default:
                     break;
@@ -99,7 +99,7 @@
 - (void)session:(WCSession *)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(nullable NSError *)error {
     
     if (_watchSession.activationState == WCSessionActivationStateActivated) {
-        [self.tableView setNumberOfRows:MenuItemCount withRowType:kISControlRowIdentifierControl];
+        [self.tableView setNumberOfRows:DGMenuItemCount withRowType:kISControlRowIdentifierControl];
     } else {
         if (error) {
 //            [FlurryWatch logWatchEvent:@"WatchApp Activation Error" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInteger:error.code], @"code", error.description, @"description", nil]];

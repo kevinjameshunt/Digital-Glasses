@@ -1,6 +1,6 @@
 //
 //  ISControlsTableViewRowController.h
-//  iSight2
+//  DigitalGlasses
 //
 //  Created by Kevin Hunt on 2017-04-30.
 //  Copyright © 2017 ProphetStudios. All rights reserved.

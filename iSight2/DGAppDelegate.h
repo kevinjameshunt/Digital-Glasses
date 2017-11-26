@@ -1,6 +1,6 @@
 //
 //  GBAppDelegate.h
-//  iSight2
+//  DigitalGlasses
 //
 //  Created by Kevin Hunt on 2015-08-30.
 //  Copyright (c) 2015 ProphetStudios. All rights reserved.

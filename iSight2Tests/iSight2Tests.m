@@ -1,6 +1,6 @@
 //
-//  iSight2Tests.m
-//  iSight2Tests
+//  DigitalGlassesTests.m
+//  DigitalGlassesTests
 //
 //  Created by Kevin Hunt on 2015-08-30.
 //  Copyright (c) 2015 ProphetStudios. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface iSight2Tests : XCTestCase
+@interface DigitalGlassesTests : XCTestCase
 
 @end
 
-@implementation iSight2Tests
+@implementation DigitalGlassesTests
 
 - (void)setUp {
     [super setUp];

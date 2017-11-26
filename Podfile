@@ -1,14 +1,15 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-xcodeproj 'iSight2'
+xcodeproj 'DigitalGlasses'
 
 platform :ios, '9.0'
 
 def install_pods
   pod "FastttCamera/Filters", :path => "./FastttCamera-master/FastttCamera.podspec"
   pod 'PebbleKit'
+  pod 'Flurry-iOS-SDK/FlurrySDK' #Analytics Pod
 end
 
-target 'iSight2', :exclusive => true do
+target 'DigitalGlasses', :exclusive => true do
   install_pods
 end

@@ -1,0 +1,39 @@
+{
+    "targetPlatforms": [
+        "aplite", 
+        "basalt", 
+        "diorite", 
+        "emery"
+    ], 
+    "projectType": "native", 
+    "name": "digitalglasses", 
+    "messageKeys": {
+        "dummy": 0
+    }, 
+    "companyName": "Prophet Studios", 
+    "enableMultiJS": false, 
+    "versionLabel": "1.0", 
+    "capabilities": [], 
+    "sdkVersion": "3", 
+    "appKeys": {
+        "dummy": 0
+    }, 
+    "longName": "DigitalGlasses", 
+    "displayName": "DigitalGlasses", 
+    "shortName": "DigitalGlasses", 
+    "watchapp": {
+        "watchface": false
+    }, 
+    "resources": {
+        "media": [
+            {
+                "menuIcon": true, 
+                "type": "png", 
+                "targetPlatforms": null, 
+                "file": "images/MENU_ICON", 
+                "name": "MENU_ICON"
+            }
+        ]
+    }, 
+    "uuid": "69a1a821-6788-4dc0-ad2f-4be47b9820cf"
+}

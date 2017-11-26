@@ -49,7 +49,7 @@
 		04FC26741B9363EE002D7458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26731B9363EE002D7458 /* Images.xcassets */; };
 		04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26751B9363EE002D7458 /* LaunchScreen.xib */; };
 		04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26821B9363EE002D7458 /* iSight2Tests.m */; };
-		04FDF79F1B9A2A0700E01984 /* ISPebbleCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */; };
+		04FDF79F1B9A2A0700E01984 /* DGPebbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF79D1B9A2A0700E01984 /* DGPebbleManager.m */; };
 		7312C722FC7D234C9E441597 /* libPods-iSight2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */; };
 		CE1AACEA1B9ABBF300B2572D /* DGFilterRange.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AACE91B9ABBF300B2572D /* DGFilterRange.m */; };
 /* End PBXBuildFile section */
@@ -173,8 +173,8 @@
 		04FC267C1B9363EE002D7458 /* iSight2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSight2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC26811B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC26821B9363EE002D7458 /* iSight2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSight2Tests.m; sourceTree = "<group>"; };
-		04FDF79C1B9A2A0700E01984 /* ISPebbleCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISPebbleCommunicator.h; sourceTree = "<group>"; };
-		04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISPebbleCommunicator.m; sourceTree = "<group>"; };
+		04FDF79C1B9A2A0700E01984 /* DGPebbleManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGPebbleManager.h; sourceTree = "<group>"; };
+		04FDF79D1B9A2A0700E01984 /* DGPebbleManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DGPebbleManager.m; sourceTree = "<group>"; };
 		0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSight2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D5D2D8E09C9B9FE5D8246D /* Pods-iSight2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.debug.xcconfig"; sourceTree = "<group>"; };
 		5AD7C023C058C4EEDD2B3325 /* Pods-iSight2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.release.xcconfig"; sourceTree = "<group>"; };
@@ -398,8 +398,8 @@
 		04FDF79B1B9A2A0700E01984 /* Pebble */ = {
 			isa = PBXGroup;
 			children = (
-				04FDF79C1B9A2A0700E01984 /* ISPebbleCommunicator.h */,
-				04FDF79D1B9A2A0700E01984 /* ISPebbleCommunicator.m */,
+				04FDF79C1B9A2A0700E01984 /* DGPebbleManager.h */,
+				04FDF79D1B9A2A0700E01984 /* DGPebbleManager.m */,
 			);
 			path = Pebble;
 			sourceTree = "<group>";
@@ -704,7 +704,7 @@
 				047576E11FC2729900C8E45B /* DBSettingsViewController.m in Sources */,
 				047576E61FC2798E00C8E45B /* DGInfoViewController.m in Sources */,
 				047576CC1FC2678000C8E45B /* DGCapturePreviewViewController.m in Sources */,
-				04FDF79F1B9A2A0700E01984 /* ISPebbleCommunicator.m in Sources */,
+				04FDF79F1B9A2A0700E01984 /* DGPebbleManager.m in Sources */,
 				047576D51FC267C400C8E45B /* DGFilterBase.m in Sources */,
 				047576CF1FC2679500C8E45B /* DGTestingUIOptionTableViewCell.m in Sources */,
 				04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */,

@@ -8,7 +8,7 @@
 
 #import "DGHeadsetViewController.h"
 #import "DGAppDelegate.h"
-#import "ISPebbleCommunicator.h"
+#import "DGPebbleManager.h"
 #import "DGFilterBase.h"
 #import "DGFilterRange.h"
 #import "DGFilterImageFactory.h"
@@ -81,7 +81,7 @@
     }
     
     // Pebble Watch support
-    [[ISPebbleCommunicator sharedPebbleCommunicator] setCommunicatorDelegate:self];
+    [[DGPebbleManager sharedPebbleManager] setCommunicatorDelegate:self];
     
     // iCade support
     _control = [[iCadeReaderView alloc] initWithFrame:CGRectZero];
@@ -545,15 +545,15 @@
 //    [self fastttRemoveChildViewController:controller];
 //}
 
-#pragma mark - PebbleCommunicatorDelegate
+#pragma mark - pebbleManagerDelegate
 
--(void)pebbleCommunicatorDidConnectWithError:(NSError *)error {
+-(void)pebbleManagerDidConnectWithError:(NSError *)error {
     if (error == nil) { // Show a connection successful message if there is no error
         [self showMenuLabelsWithMessage:@"Connected"];
     }
 }
 
--(void)pebbleCommunicatorDidReceiveData:(NSDictionary *)dict {
+-(void)pebbleManagerDidReceiveData:(NSDictionary *)dict {
     if(BKM_IS_NOT_MAIN_THREAD()) {
         BKM_REQUEUE_ON_MAIN_THREAD(dict);
     } else {

@@ -31,8 +31,6 @@
     // Setup the image preview
     [self setupImagePreview];
     
-    DGAppDelegate *AppDel = [[UIApplication sharedApplication] delegate];
-    
     // If we are in the cardboard state
     if (_displayState == DGUIDisplayStateCardboard) {
         // Show the instructions view

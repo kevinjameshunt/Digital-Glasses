@@ -1,1 +1,1 @@
-../../../../FastttCamera-master/FastttCamera/UIViewController+FastttCamera.h
+../../../../submodules/FastttCamera/FastttCamera/UIViewController+FastttCamera.h

@@ -1,3 +1,6 @@
 [submodule "submodules/iCade-iOS"]
 	path = submodules/iCade-iOS
 	url = https://github.com/stuartcarnie/iCade-iOS.git
+[submodule "submodules/FastttCamera"]
+	path = submodules/FastttCamera
+	url = https://github.com/kevinjameshunt/FastttCamera.git

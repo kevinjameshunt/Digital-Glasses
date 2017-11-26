@@ -1,1 +1,1 @@
-../../../../FastttCamera-master/FastttCamera/IFTTTDeviceOrientation.h
+../../../../submodules/FastttCamera/FastttCamera/IFTTTDeviceOrientation.h

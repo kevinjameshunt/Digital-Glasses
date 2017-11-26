@@ -1,1 +1,1 @@
-../../../../FastttCamera-master/FastttCamera/Filters/UIImage+FastttFilters.h
+../../../../submodules/FastttCamera/FastttCamera/Filters/UIImage+FastttFilters.h

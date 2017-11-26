@@ -1,1 +1,1 @@
-../../../../FastttCamera-master/FastttCamera/AVCaptureDevice+FastttCamera.h
+../../../../submodules/FastttCamera/FastttCamera/AVCaptureDevice+FastttCamera.h

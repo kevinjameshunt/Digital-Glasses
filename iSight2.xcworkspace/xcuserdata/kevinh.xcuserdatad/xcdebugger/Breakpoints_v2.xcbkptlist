@@ -570,7 +570,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.515973"
+            timestampString = "533361838.202323"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "263"
@@ -586,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.516199"
+            timestampString = "533361838.202468"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "134"
@@ -602,7 +602,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.516259"
+            timestampString = "533361838.202544"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "199"
@@ -618,7 +618,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.516313"
+            timestampString = "533361838.202612"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "239"
@@ -646,7 +646,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGMagnifierViewController.m"
@@ -666,12 +666,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.518273"
+            timestampString = "533361838.202754"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "561"
             endingLineNumber = "561"
-            landmarkName = "-pebbleCommunicatorDidReceiveData:"
+            landmarkName = "-pebbleManagerDidReceiveData:"
             landmarkType = "7">
             <Locations>
                <Location
@@ -714,7 +714,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.518356"
+            timestampString = "533361838.202849"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "590"
@@ -730,12 +730,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.518415"
+            timestampString = "533361838.202921"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "563"
             endingLineNumber = "563"
-            landmarkName = "-pebbleCommunicatorDidReceiveData:"
+            landmarkName = "-pebbleManagerDidReceiveData:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -746,7 +746,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533355669.518473"
+            timestampString = "533361838.202989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "398"

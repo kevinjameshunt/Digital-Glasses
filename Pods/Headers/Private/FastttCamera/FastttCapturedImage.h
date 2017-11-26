@@ -1,1 +1,1 @@
-../../../../FastttCamera-master/FastttCamera/FastttCapturedImage.h
+../../../../submodules/FastttCamera/FastttCamera/FastttCapturedImage.h

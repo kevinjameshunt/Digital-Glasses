@@ -9,6 +9,7 @@
 #import "DGCapturePreviewViewController.h"
 #import "DGAppDelegate.h"
 #import <FastttCamera/FastttCapturedImage.h>
+#import "Flurry.h"
 @import AssetsLibrary;
 @import MessageUI;
 
@@ -25,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [Flurry logEvent:@"Image Capture page loaded"];
     
     self.view.backgroundColor = [UIColor blackColor];
     
@@ -108,7 +110,6 @@
 
 - (IBAction)confirmButtonPressed:(id)sender
 {
-    
     [self savePhotoToCameraRoll];
 }
 
@@ -120,8 +121,10 @@
                               orientation:(ALAssetOrientation)[self.capturedImage.fullImage imageOrientation]
                           completionBlock:^(NSURL *assetURL, NSError *error){
                               if (error) {
+                                  [Flurry logError:@"Error saving photo" message:error.localizedDescription error:error];
                                   NSLog(@"Error saving photo: %@", error.localizedDescription);
                               } else {
+                                  [Flurry logEvent:@"Image saved."];
                                   NSLog(@"Saved photo to saved photos album.");
                               }
                               [self.delegate dismissConfirmController:self];

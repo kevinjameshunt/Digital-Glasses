@@ -13,6 +13,7 @@
 #import "DGFilterRange.h"
 #import "DGFilterImageFactory.h"
 #import "DGConstants.h"
+#import "Flurry.h"
 
 @interface DGHeadsetViewController () <FastttCameraDelegate>
 
@@ -39,6 +40,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [Flurry logEvent:@"Headset page loaded"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applicationWillEnterForeground:)
@@ -146,9 +149,19 @@
     
 }
 
+
 - (void)applicationWillEnterForeground:(NSNotification *)notification {
-    // Add it to the view heirarchy
-//    [self setupCameraView];
+    // Show/hide appropriate UI components, depending on the orientation of the device
+    UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+    if (orientation == UIInterfaceOrientationMaskPortrait || orientation == UIInterfaceOrientationPortrait) {
+        _uiDisplayState = DGUIDisplayStateInstructions;
+    } else {
+        _uiDisplayState = DGUIDisplayStateCardboard;
+        // Add the camera views to the view heirarchy
+        [self setupCameraView];
+    }
+    
+    [self updateUICurrentState];
 }
 
 - (void)applicationDidBecomeActive:(NSNotification *)notification {
@@ -246,7 +259,7 @@
             [self.fastCameraL setCameraFlashMode:FastttCameraFlashModeOff];
             
             // Add camera to this view
-            [self addChildViewController:self.fastCameraL];
+//            [self addChildViewController:self.fastCameraL];
             [self.fastCameraL didMoveToParentViewController:self];
             [self.view insertSubview:self.fastCameraL.view atIndex:0];
             
@@ -274,9 +287,10 @@
             NSLog(@"Tearing down headset camera view");
 //            [self.fastCameraL.previewView.layer removeFromSuperlayer];
 //            [_replicatorLayerR removeFromSuperlayer];
-//            [self.fastCameraL.view removeFromSuperview];
+            [self.fastCameraL.view removeFromSuperview];
+//            [self.fastCameraL.previewView removeFromSuperview];
 //            [self.fastCameraL viewWillDisappear:NO];
-            [self.fastCameraL removeFromParentViewController];
+//            [self.fastCameraL removeFromParentViewController];
             _replicatorLayerR = nil;
         } else {
             NSLog(@"Skipping headset camera teardown because view doestn exist");
@@ -425,6 +439,7 @@
 //}
 
 -(void)executeInstruction:(NSInteger)instruction withValue:(BOOL)action {
+    _currentDGMenuItem = instruction;
     switch (instruction) {
         case DGMenuItemZoom : {
             if (action == NO && _zoomValue > 1) {
@@ -492,6 +507,10 @@
         default:
             break;
     }
+    
+    // Update the message
+    NSString *message = [self menuTextForDGMenuItem:_currentDGMenuItem];
+    [self showMenuLabelsWithMessage:message];
 }
 
 

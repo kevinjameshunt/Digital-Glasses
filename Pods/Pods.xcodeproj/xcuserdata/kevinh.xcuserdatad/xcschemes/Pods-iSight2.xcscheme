@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C9E4917C0C3E2481DDF26CF9CB46CDFB'
+               BlueprintIdentifier = '3F34B3A2E93C6F43EBB4D3ADDD7822CD'
                BlueprintName = 'Pods-iSight2'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-iSight2.a'>

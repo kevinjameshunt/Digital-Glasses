@@ -1386,7 +1386,7 @@ DISCARD
  libm.a(*)
  libgcc.a(*)
  *(.eh_frame)
-OUTPUT(/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/digitalglasses/build/aplite/pebble-app.elf elf32-littlearm)
+OUTPUT(/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/Pebble/digitalglasses/build/aplite/pebble-app.elf elf32-littlearm)
 
 .ARM.attributes
                 0x0000000000000000       0x27
@@ -1452,15 +1452,15 @@ OUTPUT(/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/digitalglasses/build/ap
  .debug_line    0x0000000000000411       0xc4 aplite/src/resource_ids.auto.c.33.o
  .debug_line    0x00000000000004d5       0xbd src/message_keys.auto.c.33.o
 
-.debug_str      0x0000000000000000      0xd21
- .debug_str     0x0000000000000000      0xa8c src/c/DigitalGlasses.c.33.o
-                                        0xb3f (size before relaxing)
- .debug_str     0x0000000000000a8c      0x236 aplite/appinfo.auto.c.33.o
-                                        0x335 (size before relaxing)
- .debug_str     0x0000000000000cc2       0x35 aplite/src/resource_ids.auto.c.33.o
-                                        0x115 (size before relaxing)
- .debug_str     0x0000000000000cf7       0x2a src/message_keys.auto.c.33.o
-                                        0x10a (size before relaxing)
+.debug_str      0x0000000000000000      0xd28
+ .debug_str     0x0000000000000000      0xa93 src/c/DigitalGlasses.c.33.o
+                                        0xb46 (size before relaxing)
+ .debug_str     0x0000000000000a93      0x236 aplite/appinfo.auto.c.33.o
+                                        0x33c (size before relaxing)
+ .debug_str     0x0000000000000cc9       0x35 aplite/src/resource_ids.auto.c.33.o
+                                        0x11c (size before relaxing)
+ .debug_str     0x0000000000000cfe       0x2a src/message_keys.auto.c.33.o
+                                        0x111 (size before relaxing)
 
 .debug_frame    0x0000000000000000      0x18c
  .debug_frame   0x0000000000000000      0x18c src/c/DigitalGlasses.c.33.o

@@ -21,9 +21,11 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>2</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>App will connect to any iCade bluetooth remotes to allow you to control vision in Headset Mode.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>App will use the camera to create a view-finder which can be zoomed and enhanced.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>

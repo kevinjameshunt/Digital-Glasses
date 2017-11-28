@@ -1,13 +1,13 @@
-# project  configured on Sat Nov 25 21:50:22 2017 by
+# project  configured on Mon Nov 27 18:13:25 2017 by
 # waf 1.7.11 (abi 98, python 2070af0 on darwin)
 # using /Users/kevinh/Library/Application Support/Pebble SDK/SDKs/current/sdk-core/pebble/waf configure
 #
 ----------------------------------------
 Setting top to
-/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/digitalglasses
+/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/Pebble/digitalglasses
 ----------------------------------------
 Setting out to
-/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/digitalglasses/build
+/Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/Pebble/digitalglasses/build
 ----------------------------------------
 Checking for program webpack
 /Users/kevinh/Library/Application Support/Pebble SDK/SDKs/current/node_modules/.bin/webpack

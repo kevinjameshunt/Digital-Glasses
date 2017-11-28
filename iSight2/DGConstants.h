@@ -12,6 +12,8 @@
 #define BKM_REQUEUE_ON_MAIN_THREAD(__ONE_ARG) \
 [self performSelectorOnMainThread : _cmd withObject : __ONE_ARG waitUntilDone : NO]
 
+#define IS_IOS11orHIGHER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
+
 
 #define     kISControlDisplaySegue                  @"controlSegue"
 #define     kISControlRowIdentifierControl          @"controlRow"

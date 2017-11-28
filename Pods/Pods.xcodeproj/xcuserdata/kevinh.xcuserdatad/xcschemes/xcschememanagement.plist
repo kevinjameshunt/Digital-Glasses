@@ -9,12 +9,27 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Flurry-iOS-SDK.xcscheme</key>
+		<key>Flurry-iOS-SDK-FlurrySDK.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Flurry-iOS-SDK-FlurryWatchOSSDK.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>GPUImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WatchControl Extension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-WatchControl.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

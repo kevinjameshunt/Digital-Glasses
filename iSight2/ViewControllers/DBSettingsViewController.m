@@ -8,6 +8,7 @@
 
 #import "DBSettingsViewController.h"
 #import "DGConstants.h"
+#import "Flurry.h"
 
 @interface DBSettingsViewController ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [Flurry logEvent:@"Settings page loaded"];
 }
 
 - (void)didReceiveMemoryWarning {

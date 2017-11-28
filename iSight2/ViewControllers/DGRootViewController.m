@@ -9,7 +9,8 @@
 
 #import "DGRootViewController.h"
 #import <QuartzCore/QuartzCore.h>
-
+#import "DGPebbleManager.h"
+#import "Flurry.h"
 
 @implementation DGRootViewController {
 
@@ -27,11 +28,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [Flurry logEvent:@"Main page loaded"];
+    
+    // Start communicating with Pebble if possible
+    [DGPebbleManager sharedPebbleManager];
+    
     // Round the buttons
     _magnifierButton.layer.cornerRadius = 10;
     _magnifierButton.clipsToBounds = YES;
     _headsetButton.layer.cornerRadius = 10;
     _headsetButton.clipsToBounds = YES;
+    
+    
 }
 
 - (UIInterfaceOrientationMask) supportedInterfaceOrientations {

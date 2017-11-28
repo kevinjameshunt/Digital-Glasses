@@ -28,7 +28,6 @@
 		047576F51FC4D80C00C8E45B /* DGInstructionsListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 047576F41FC4D80C00C8E45B /* DGInstructionsListTableViewCell.m */; };
 		047576F81FC4DD8800C8E45B /* pause_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047576F61FC4DD8700C8E45B /* pause_btn.png */; };
 		047576F91FC4DD8800C8E45B /* play_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047576F71FC4DD8800C8E45B /* play_btn.png */; };
-		047576FC1FC4E31000C8E45B /* HondaChannel.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 047576FB1FC4E31000C8E45B /* HondaChannel.mp4 */; };
 		047576FE1FC4EFDB00C8E45B /* magnifier_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047576FD1FC4EFDA00C8E45B /* magnifier_btn.png */; };
 		047577001FC4F25600C8E45B /* headset_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 047576FF1FC4F25500C8E45B /* headset_btn.png */; };
 		047577021FC4F7C200C8E45B /* googlecardboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 047577011FC4F7C200C8E45B /* googlecardboard.png */; };
@@ -42,6 +41,11 @@
 		04A7A1121EB6342400DD3EA4 /* WatchControl.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04A7A0F61EB6342400DD3EA4 /* WatchControl.app */; };
 		04A7A11D1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A11C1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m */; };
 		04A7A1211EB643E800DD3EA4 /* ISControlsTableViewRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */; };
+		04AB9BDC1FCDB7A00002F81E /* magnifier.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BD71FCDB79F0002F81E /* magnifier.MOV */; };
+		04AB9BDD1FCDB7A00002F81E /* pebblewatch.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BD81FCDB7A00002F81E /* pebblewatch.MOV */; };
+		04AB9BDE1FCDB7A00002F81E /* controller.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BD91FCDB7A00002F81E /* controller.MOV */; };
+		04AB9BDF1FCDB7A00002F81E /* applewatch.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BDA1FCDB7A00002F81E /* applewatch.MOV */; };
+		04AB9BE01FCDB7A00002F81E /* headset.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BDB1FCDB7A00002F81E /* headset.MOV */; };
 		04FC26661B9363EE002D7458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26651B9363EE002D7458 /* main.m */; };
 		04FC26691B9363EE002D7458 /* DGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26681B9363EE002D7458 /* DGAppDelegate.m */; };
 		04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */; };
@@ -50,6 +54,8 @@
 		04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26751B9363EE002D7458 /* LaunchScreen.xib */; };
 		04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26821B9363EE002D7458 /* iSight2Tests.m */; };
 		04FDF79F1B9A2A0700E01984 /* DGPebbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF79D1B9A2A0700E01984 /* DGPebbleManager.m */; };
+		09AAC01F70327A1D3C224D6D /* libPods-WatchControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CDD3D716FA37E60AEE8B38 /* libPods-WatchControl.a */; };
+		4B901E42B22C95AFAE7D1904 /* libPods-WatchControl Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DFE071CC7C08519AD71634 /* libPods-WatchControl Extension.a */; };
 		7312C722FC7D234C9E441597 /* libPods-iSight2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */; };
 		CE1AACEA1B9ABBF300B2572D /* DGFilterRange.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1AACE91B9ABBF300B2572D /* DGFilterRange.m */; };
 /* End PBXBuildFile section */
@@ -140,7 +146,6 @@
 		047576F41FC4D80C00C8E45B /* DGInstructionsListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DGInstructionsListTableViewCell.m; sourceTree = "<group>"; };
 		047576F61FC4DD8700C8E45B /* pause_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_btn.png; sourceTree = "<group>"; };
 		047576F71FC4DD8800C8E45B /* play_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_btn.png; sourceTree = "<group>"; };
-		047576FB1FC4E31000C8E45B /* HondaChannel.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HondaChannel.mp4; sourceTree = "<group>"; };
 		047576FD1FC4EFDA00C8E45B /* magnifier_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnifier_btn.png; sourceTree = "<group>"; };
 		047576FF1FC4F25500C8E45B /* headset_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headset_btn.png; sourceTree = "<group>"; };
 		047577011FC4F7C200C8E45B /* googlecardboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googlecardboard.png; sourceTree = "<group>"; };
@@ -161,6 +166,11 @@
 		04A7A11E1EB63AF300DD3EA4 /* DGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGConstants.h; sourceTree = "<group>"; };
 		04A7A11F1EB643E800DD3EA4 /* ISControlsTableViewRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISControlsTableViewRowController.h; sourceTree = "<group>"; };
 		04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISControlsTableViewRowController.m; sourceTree = "<group>"; };
+		04AB9BD71FCDB79F0002F81E /* magnifier.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = magnifier.MOV; sourceTree = "<group>"; };
+		04AB9BD81FCDB7A00002F81E /* pebblewatch.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pebblewatch.MOV; sourceTree = "<group>"; };
+		04AB9BD91FCDB7A00002F81E /* controller.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = controller.MOV; sourceTree = "<group>"; };
+		04AB9BDA1FCDB7A00002F81E /* applewatch.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = applewatch.MOV; sourceTree = "<group>"; };
+		04AB9BDB1FCDB7A00002F81E /* headset.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = headset.MOV; sourceTree = "<group>"; };
 		04FC26601B9363EE002D7458 /* iSight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC26641B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC26651B9363EE002D7458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -178,8 +188,14 @@
 		0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iSight2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24D5D2D8E09C9B9FE5D8246D /* Pods-iSight2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.debug.xcconfig"; sourceTree = "<group>"; };
 		5AD7C023C058C4EEDD2B3325 /* Pods-iSight2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSight2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSight2/Pods-iSight2.release.xcconfig"; sourceTree = "<group>"; };
+		7F7D7D615A407B690B47A084 /* Pods-WatchControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchControl/Pods-WatchControl.debug.xcconfig"; sourceTree = "<group>"; };
+		90E713725AA545ECD703EF1E /* Pods-WatchControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchControl/Pods-WatchControl.release.xcconfig"; sourceTree = "<group>"; };
+		A8DFE071CC7C08519AD71634 /* libPods-WatchControl Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchControl Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1AACE81B9ABBF300B2572D /* DGFilterRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGFilterRange.h; path = Filters/DGFilterRange.h; sourceTree = "<group>"; };
 		CE1AACE91B9ABBF300B2572D /* DGFilterRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGFilterRange.m; path = Filters/DGFilterRange.m; sourceTree = "<group>"; };
+		D6354E995F39AC33672E6733 /* Pods-WatchControl Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchControl Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatchControl Extension/Pods-WatchControl Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		E7CDD3D716FA37E60AEE8B38 /* libPods-WatchControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WatchControl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F993F476022DC6285362F7F9 /* Pods-WatchControl Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchControl Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatchControl Extension/Pods-WatchControl Extension.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +203,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B901E42B22C95AFAE7D1904 /* libPods-WatchControl Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AAC01F70327A1D3C224D6D /* libPods-WatchControl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +308,11 @@
 		047576FA1FC4E31000C8E45B /* videos */ = {
 			isa = PBXGroup;
 			children = (
-				047576FB1FC4E31000C8E45B /* HondaChannel.mp4 */,
+				04AB9BDA1FCDB7A00002F81E /* applewatch.MOV */,
+				04AB9BD91FCDB7A00002F81E /* controller.MOV */,
+				04AB9BDB1FCDB7A00002F81E /* headset.MOV */,
+				04AB9BD71FCDB79F0002F81E /* magnifier.MOV */,
+				04AB9BD81FCDB7A00002F81E /* pebblewatch.MOV */,
 			);
 			path = videos;
 			sourceTree = "<group>";
@@ -422,6 +444,10 @@
 			children = (
 				24D5D2D8E09C9B9FE5D8246D /* Pods-iSight2.debug.xcconfig */,
 				5AD7C023C058C4EEDD2B3325 /* Pods-iSight2.release.xcconfig */,
+				7F7D7D615A407B690B47A084 /* Pods-WatchControl.debug.xcconfig */,
+				90E713725AA545ECD703EF1E /* Pods-WatchControl.release.xcconfig */,
+				D6354E995F39AC33672E6733 /* Pods-WatchControl Extension.debug.xcconfig */,
+				F993F476022DC6285362F7F9 /* Pods-WatchControl Extension.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -430,6 +456,8 @@
 			isa = PBXGroup;
 			children = (
 				0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */,
+				E7CDD3D716FA37E60AEE8B38 /* libPods-WatchControl.a */,
+				A8DFE071CC7C08519AD71634 /* libPods-WatchControl Extension.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -441,9 +469,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A7A1191EB6342400DD3EA4 /* Build configuration list for PBXNativeTarget "WatchControl" */;
 			buildPhases = (
+				0E5AA01EC7CB4A29990F552A /* [CP] Check Pods Manifest.lock */,
 				04A7A0F41EB6342400DD3EA4 /* Resources */,
 				04A7A1181EB6342400DD3EA4 /* Embed App Extensions */,
 				4A8653669F012ECCE3902931 /* Frameworks */,
+				15BFE9CDD77B927BF081418E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -459,9 +489,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A7A1171EB6342400DD3EA4 /* Build configuration list for PBXNativeTarget "WatchControl Extension" */;
 			buildPhases = (
+				FA8624B8BB9C213B418EFF72 /* [CP] Check Pods Manifest.lock */,
 				04A7A0FE1EB6342400DD3EA4 /* Sources */,
 				04A7A0FF1EB6342400DD3EA4 /* Frameworks */,
 				04A7A1001EB6342400DD3EA4 /* Resources */,
+				C0EB06B2B935504B9D83E1F5 /* [CP] Embed Pods Frameworks */,
+				69A6C90288B5F4B81F0312DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -590,6 +623,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				047576EB1FC27C7900C8E45B /* twitter.png in Resources */,
+				04AB9BDF1FCDB7A00002F81E /* applewatch.MOV in Resources */,
+				04AB9BDD1FCDB7A00002F81E /* pebblewatch.MOV in Resources */,
 				047576F01FC4D11400C8E45B /* videoList.json in Resources */,
 				04542E8D1EE89CF20086B4AD /* LaunchImage.png in Resources */,
 				047577021FC4F7C200C8E45B /* googlecardboard.png in Resources */,
@@ -600,10 +635,12 @@
 				047576EA1FC27C7900C8E45B /* facebook.png in Resources */,
 				047576E31FC275D500C8E45B /* close_btn.png in Resources */,
 				04FC26721B9363EE002D7458 /* Main.storyboard in Resources */,
+				04AB9BE01FCDB7A00002F81E /* headset.MOV in Resources */,
+				04AB9BDE1FCDB7A00002F81E /* controller.MOV in Resources */,
 				04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */,
-				047576FC1FC4E31000C8E45B /* HondaChannel.mp4 in Resources */,
 				047577231FC505D800C8E45B /* adList.json in Resources */,
 				04FC26741B9363EE002D7458 /* Images.xcassets in Resources */,
+				04AB9BDC1FCDB7A00002F81E /* magnifier.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,6 +654,39 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E5AA01EC7CB4A29990F552A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchControl-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15BFE9CDD77B927BF081418E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchControl/Pods-WatchControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		371B635F70A61CCA6137448A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -633,6 +703,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69A6C90288B5F4B81F0312DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchControl Extension/Pods-WatchControl Extension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		81F94C87265294EB5FEF83D2 /* [CP] Copy Pods Resources */ = {
@@ -673,6 +758,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iSight2/Pods-iSight2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EB06B2B935504B9D83E1F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatchControl Extension/Pods-WatchControl Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA8624B8BB9C213B418EFF72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchControl Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -773,6 +891,7 @@
 /* Begin XCBuildConfiguration section */
 		04A7A1131EB6342400DD3EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7D7D615A407B690B47A084 /* Pods-WatchControl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -796,6 +915,7 @@
 		};
 		04A7A1141EB6342400DD3EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E713725AA545ECD703EF1E /* Pods-WatchControl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -818,6 +938,7 @@
 		};
 		04A7A1151EB6342400DD3EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6354E995F39AC33672E6733 /* Pods-WatchControl Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -825,12 +946,15 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = V8SSGR3H48;
 				INFOPLIST_FILE = "WatchControl Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.DigitalGlasses.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -840,6 +964,7 @@
 		};
 		04A7A1161EB6342400DD3EA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F993F476022DC6285362F7F9 /* Pods-WatchControl Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -847,11 +972,14 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V8SSGR3H48;
 				INFOPLIST_FILE = "WatchControl Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.prophetstudios.DigitalGlasses.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;

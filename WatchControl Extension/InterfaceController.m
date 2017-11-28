@@ -9,6 +9,7 @@
 #import "InterfaceController.h"
 #import "DGConstants.h"
 #import "ISControlsTableViewRowController.h"
+#import <Flurry-iOS-SDK/FlurryWatch.h>
 
 @interface InterfaceController ()
 
@@ -20,7 +21,7 @@
 - (void)awakeWithContext:(id)context {
     [super awakeWithContext:context];
 
-    // Configure interface objects here.
+    [FlurryWatch logWatchEvent:@"WatchApp Main page loaded"];
     
     if ([WCSession isSupported]) {
         _watchSession = [WCSession defaultSession];
@@ -99,10 +100,11 @@
 - (void)session:(WCSession *)session activationDidCompleteWithState:(WCSessionActivationState)activationState error:(nullable NSError *)error {
     
     if (_watchSession.activationState == WCSessionActivationStateActivated) {
+        [FlurryWatch logWatchEvent:@"WatchApp Activation Success"];
         [self.tableView setNumberOfRows:DGMenuItemCount withRowType:kISControlRowIdentifierControl];
     } else {
         if (error) {
-//            [FlurryWatch logWatchEvent:@"WatchApp Activation Error" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInteger:error.code], @"code", error.description, @"description", nil]];
+            [FlurryWatch logWatchEvent:@"WatchApp Activation Error" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[NSNumber numberWithInteger:error.code], @"code", error.description, @"description", nil]];
         }
         
         [self.tableView setNumberOfRows:1 withRowType:@"sessionFailedRow"];

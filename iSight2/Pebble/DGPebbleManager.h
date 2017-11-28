@@ -14,7 +14,7 @@
 
 @protocol DGPebbleManagerDelegate;
 
-@interface DGPebbleManager : NSObject
+@interface DGPebbleManager : NSObject <PBPebbleCentralDelegate>
 
 @property PBWatch *watch;
 @property BOOL watchAppRunning;

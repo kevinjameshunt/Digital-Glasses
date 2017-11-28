@@ -6,11 +6,13 @@
 //  Copyright (c) 2015 IFTTT. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
+#import "DGConstants.h"
+
 @class FastttCapturedImage;
 @protocol DGCaptureConfirmControllerDelegate;
 
-#import "DGConstants.h"
+
 
 @interface DGCapturePreviewViewController : UIViewController
 

@@ -12,6 +12,7 @@
 #import "DBInstructionsViewController.h"
 #import "DGInstructionsListTableViewCell.h"
 #import "DGConstants.h"
+#import "Flurry.h"
 
 static const NSString * DGAVPlayerKVOContext = @"DGAVPlayerContext";
 
@@ -32,6 +33,8 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [Flurry logEvent:@"Instructions page loaded"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applicationWillEnterForeground:)
@@ -121,12 +124,12 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
     // Dispose of any resources that can be recreated.
 }
 
-- (UIInterfaceOrientationMask) supportedInterfaceOrientations {
-    // Return a bitmask of supported orientations. If you need more,
-    // use bitwise or (see the commented return).
-    return UIInterfaceOrientationMaskPortrait;
-    // return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskPortraitUpsideDown;
-}
+//- (UIInterfaceOrientationMask) supportedInterfaceOrientations {
+//    // Return a bitmask of supported orientations. If you need more,
+//    // use bitwise or (see the commented return).
+//    return UIInterfaceOrientationMaskPortrait;
+//    // return UIInterfaceOrientationMaskPortrait | UIInterfaceOrientationMaskPortraitUpsideDown;
+//}
 
 - (UIInterfaceOrientation) preferredInterfaceOrientationForPresentation {
     // Return the orientation you'd prefer - this is what it launches to. The
@@ -177,6 +180,38 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
+{
+    [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
+    
+    // Code here will execute before the rotation begins.
+    // Equivalent to placing it in the deprecated method -[willRotateToInterfaceOrientation:duration:]
+    
+    [coordinator animateAlongsideTransition:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        
+        // Place code here to perform animations during the rotation.
+        // You can pass nil or leave this block empty if not necessary.
+        
+    } completion:^(id<UIViewControllerTransitionCoordinatorContext> context) {
+        
+        // Code here will execute after the rotation has finished.
+        // Equivalent to placing it in the deprecated method -[didRotateFromInterfaceOrientation:]
+        
+        // Show/hide fullscreen player
+        UIInterfaceOrientation orientation = [[UIApplication sharedApplication] statusBarOrientation];
+        if (orientation == UIInterfaceOrientationMaskPortrait || orientation == UIInterfaceOrientationPortrait) {
+            // Set the frame
+            _playerViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, kVideoPlayerHeight);
+            _tableView.hidden = NO;
+            _closeButton.hidden = NO;
+        } else {
+            _playerViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+            _tableView.hidden = YES;
+            _closeButton.hidden = YES;
+        }
+    }];
+}
+
 #pragma mark - Video Player
 
 - (void)tearDownPlayer {
@@ -201,7 +236,7 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
         if (_currentVideoIndex > -1 && _currentVideoIndex < [_videoDictsArray count]) {
             NSDictionary *videoDict = [_videoDictsArray objectAtIndex:_currentVideoIndex];
             NSString *videoFilename = [videoDict objectForKey:kDGVideoFileKey];
-            NSURL *videoURL = [[NSBundle mainBundle]URLForResource:videoFilename withExtension:@"mp4"];
+            NSURL *videoURL = [[NSBundle mainBundle]URLForResource:videoFilename withExtension:@"MOV"];
             
             // Create an AVPlayer
             AVPlayer *player = [AVPlayer playerWithURL:videoURL];
@@ -214,11 +249,11 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
             [player play];
             _isPlaying = YES;
             
-            
-            
             // Show the view controller
             [self addChildViewController:_playerViewController];
             [self.view insertSubview:_playerViewController.view atIndex:1]; // Place behind the close button
+            
+            // Set the frame
             _playerViewController.view.frame = CGRectMake(0, 0, self.view.frame.size.width, kVideoPlayerHeight);
         }
     });
@@ -322,6 +357,8 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
             });
             
         } else {
+            NSDictionary *videoDict = [_videoDictsArray objectAtIndex:objectIndex];
+            [Flurry logEvent:@"Video Clicked" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[videoDict objectForKey:kDGVideoNameKey], kDGVideoNameKey, nil]];
             // Play the newly selected video
             _currentVideoIndex = objectIndex;
             [self playCurrentVideo];
@@ -331,6 +368,8 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
         NSDictionary *adsDict = [_adDictsArray objectAtIndex:objectIndex];
         NSString *selectedUrl = [adsDict objectForKey:kDGAdProductURLKey];
         NSURL *requestURL = [[NSURL alloc] initWithString:selectedUrl];
+        
+        [Flurry logEvent:@"Ad Clicked" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[adsDict objectForKey:kDGAdProductNameKey], kDGAdProductNameKey, nil]];
         
         if ([[UIApplication sharedApplication] canOpenURL:requestURL]) {
             [[UIApplication sharedApplication] openURL:requestURL];

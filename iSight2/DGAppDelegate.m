@@ -7,6 +7,13 @@
 //
 
 #import "DGAppDelegate.h"
+#import "Flurry.h"
+
+#define kFlurryAppID @"WMMM7WN8W5NCJXZ4SYBM"
+
+void exceptionHandler(NSException *exception) {
+    [Flurry logError:@"UncaughtException" message:@"exceptionHandler caught an uncaught exception prior to crash." exception:exception];
+}
 
 @interface DGAppDelegate ()
 
@@ -17,6 +24,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    // Set exception handler and start flurry
+    NSSetUncaughtExceptionHandler(&exceptionHandler);
+    [Flurry startSession:kFlurryAppID
+      withSessionBuilder:[[[FlurrySessionBuilder new]
+                           withCrashReporting:YES]
+                          withLogLevel:FlurryLogLevelCriticalOnly]];
+    
     return YES;
 }
 

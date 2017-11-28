@@ -12,6 +12,7 @@
 #import "DGFilterRange.h"
 #import "DGFilterImageFactory.h"
 #import "DGConstants.h"
+#import "Flurry.h"
 
 @interface DGMagnifierViewController () <FastttCameraDelegate, DGCaptureConfirmControllerDelegate>
 
@@ -31,6 +32,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [Flurry logEvent:@"Magnifier page loaded"];
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(applicationWillEnterForeground:)

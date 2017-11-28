@@ -7,6 +7,7 @@
 //
 
 #import "DGInfoViewController.h"
+#import "Flurry.h"
 
 @interface DGInfoViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [Flurry logEvent:@"Terms of Use page loaded"];
 }
 
 - (void)viewDidAppear:(BOOL)animated {

@@ -7,6 +7,9 @@
 //
 
 #import "ExtensionDelegate.h"
+#import <Flurry-iOS-SDK/FlurryWatch.h>
+
+#define kFlurryAppID @"8RR9XDPTBMXNMFRJK89F"
 
 @implementation ExtensionDelegate
 

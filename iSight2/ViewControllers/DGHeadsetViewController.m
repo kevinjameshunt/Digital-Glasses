@@ -180,8 +180,7 @@
 //    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
-- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator
-{
+- (void)viewWillTransitionToSize:(CGSize)size withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {
     [super viewWillTransitionToSize:size withTransitionCoordinator:coordinator];
     
     // Code here will execute before the rotation begins.
@@ -226,8 +225,8 @@
 
 - (void)updateUICurrentState {
     dispatch_async(dispatch_get_main_queue(), ^{
-        // Show the instructions UI components
         if (_uiDisplayState == DGUIDisplayStateInstructions) {
+            // Show the instructions UI components
             self.fastCameraL.view.hidden = YES;
             self.replicatorLayerR.hidden = YES;
             self.imageView.hidden = NO;
@@ -321,7 +320,7 @@
 }
 
 - (void)updateTorchState:(BOOL)torchOn {
-    NSLog(@"torch button pressed");
+    NSLog(@"Torch button pressed");
     
     FastttCameraTorchMode torchMode;
     if (torchOn) {
@@ -568,7 +567,7 @@
 
 -(void)pebbleManagerDidConnectWithError:(NSError *)error {
     if (error == nil) { // Show a connection successful message if there is no error
-        [self showMenuLabelsWithMessage:@"Connected"];
+        [self showMenuLabelsWithMessage:kDGConnectedLabel];
     }
 }
 

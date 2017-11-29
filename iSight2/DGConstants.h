@@ -14,6 +14,9 @@
 
 #define IS_IOS11orHIGHER ([[[UIDevice currentDevice] systemVersion] floatValue] >= 11.0)
 
+#define     kPSWebsiteLink                          @"https://twitter.com/ProphetStudios/"
+#define     kPSFacebookLink                         @"https://facebook.com/Official.Prophet.Studios/"
+#define     kPSTwitterLink                          @"https://twitter.com/ProphetStudios/"
 
 #define     kISControlDisplaySegue                  @"controlSegue"
 #define     kISControlRowIdentifierControl          @"controlRow"
@@ -31,6 +34,7 @@
 #define     kDGTorchLabel                           @"Light"
 #define     kDGResetLabel                           @"Reset"
 #define     kDGFlashLabel                           @"Flash"
+#define     kDGConnectedLabel                       @"Connected"
 
 #define     kDGVideoInstructionsLabel               @"Instruction Videos"
 #define     kDGHeadsetsLabel                        @"Buy A Headset"

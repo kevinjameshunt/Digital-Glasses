@@ -60,17 +60,17 @@
 
 -(IBAction)openFacebook:(id)sender {
 //    [Flurry logEvent:@"Facebook page shown"];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://facebook.com/Official.Prophet.Studios/"] options:[NSDictionary dictionary] completionHandler:nil];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kPSFacebookLink] options:[NSDictionary dictionary] completionHandler:nil];
 }
 
 -(IBAction)openTwitter:(id)sender {
 //    [Flurry logEvent:@"Twitter page shown"];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://twitter.com/ProphetStudios/"] options:[NSDictionary dictionary] completionHandler:nil];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kPSWebsiteLink] options:[NSDictionary dictionary] completionHandler:nil];
 }
 
 -(IBAction)openWebsite:(id)sender {
 //    [Flurry logEvent:@"Web page shown"];
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://prophetstudios.com/"] options:[NSDictionary dictionary] completionHandler:nil];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:kPSTwitterLink] options:[NSDictionary dictionary] completionHandler:nil];
 }
 
 #pragma mark - Table view data source
@@ -104,7 +104,6 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSInteger row = indexPath.row;
     
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
     [tableView reloadData];

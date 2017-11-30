@@ -8,6 +8,7 @@ This software was build to work with an inexpensive Google Cardboard headset to 
 Using a customized version of the FastttCamera, the application uses preset "lookup images" to add filters to what the iOS camera preview presents to the viewer. This is essentially how apps like Instagram allow users to add color filters to photos. With this software, however, we are using it to augment and enhance what an individual is able to see on-the-fly while wearing a headset. 
 
 More information in this video: 
+
 [![Video of the app in action](https://img.youtube.com/vi/xJJuWGkk544/0.jpg)](http://www.youtube.com/watch?v=xJJuWGkk544)
 
 Features
@@ -38,4 +39,4 @@ I also wish to clean up the linking of the various components. Using cocoapods t
 
 FastttCamera
 ========
-The filtering software behind this application is the FastttCamera lirary by [Laura Skelton](https://github.com/lauraskelton) at [IFTTT](https://ifttt.com/), which I forked in order to expose the camera preview layer so that I could duplicate it to provide an AR-like interface.  This is fantastic software that wraps the core AVFoundation and GPUImage APIs, making it extremely easy to enhance and filter data from the camera. 
+The filtering software behind this application is the FastttCamera library by [Laura Skelton](https://github.com/lauraskelton) at [IFTTT](https://ifttt.com/), which I forked in order to expose the camera preview layer so that I could duplicate it to provide an AR-like interface.  This is fantastic software that wraps the core AVFoundation and GPUImage APIs, making it extremely easy to enhance and filter data from the camera. 

@@ -7,15 +7,24 @@ This software was build to work with an inexpensive Google Cardboard headset to 
 
 Using a customized version of the FastttCamera, the application uses preset "lookup images" to add filters to what the iOS camera preview presents to the viewer. This is essentially how apps like Instagram allow users to add color filters to photos. With this software, however, we are using it to augment and enhance what an individual is able to see on-the-fly while wearing a headset. 
 
+More information in this video: 
 [![Video of the app in action](https://img.youtube.com/vi/xJJuWGkk544/0.jpg)](http://www.youtube.com/watch?v=xJJuWGkk544)
 
 Features
 ========
-– Use the Magnifier mode to zoom and enlarge text and everyday objects. You can also increase/decrease brightness, color saturation, contrast, and activate/deactivate the flashlight on the phone for increased visibility. 
-– Use the Headset mode with any compatible AR/VR headset to enhance your sight hands-free. 
-– Support for compatible iCade Bluetooth remote controller, Apple Watches, and Pebble Smartwatches (excluding Round watches)
-– Use remotes or smartwatches to zoom, increase/decrease brightness, color saturation, contrast, and activate/deactivate the flashlight on the phone for increased visibility
-– Instructional How-To videos for all features!
+* Use the Magnifier mode to zoom and enlarge text and everyday objects. You can also increase/decrease brightness, color saturation, contrast, and activate/deactivate the flashlight on the phone for increased visibility. 
+* Use the Headset mode with any compatible AR/VR headset to enhance your sight hands-free. 
+* Support for compatible iCade Bluetooth remote controller, Apple Watches, and Pebble Smartwatches (excluding Round watches)
+* Use remotes or smartwatches to zoom, increase/decrease brightness, color saturation, contrast, and activate/deactivate the flashlight on the phone for increased visibility
+* Instructional How-To videos for all features!
+
+Hardware Requirements
+========
+[AR/VR Headsets can be found here](https://www.amazon.com/gp/product/B072JJDV3G/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B072JJDV3G&linkCode=as2&tag=prophetstud07-20&linkId=0650f88eed6de2b4379d3255daba2b50). Be sure to purchase a headset that has a strap so that it will stay on your head hands-free and, most importantly, does not block the camera of the iPhone/iPod. 
+
+[Bluetooth remotes are the cheapest way to control the app while wearing a headset, and can be found here](https://www.amazon.com/gp/search?ie=UTF8&tag=prophetstud07-20&linkCode=ur2&linkId=de3a9866fb0a7bdb9863629a4e3ec8f8&camp=1789&creative=9325&index=aps&keywords=iCade%20bluetooth%20remote). Any iCade Bluetooth remote will should be compatible with this app. If you have one that is not compatible, please contact me so I can add support! 
+
+Alternatively, Apple Watches ([found here](https://www.amazon.com/gp/search?ie=UTF8&tag=prophetstud07-20&linkCode=ur2&linkId=c1c173d0e74c5e7bcce4dabd5cf667bd&camp=1789&creative=9325&index=aps&keywords=apple%20watch)) and the significantly cheaper Pebble Watches ([found here](https://www.amazon.com/gp/search?ie=UTF8&tag=prophetstud07-20&linkCode=ur2&linkId=c1c173d0e74c5e7bcce4dabd5cf667bd&camp=1789&creative=9325&index=aps&keywords=pebble%20watch)) are also supported as remotes for the headset. 
 
 TODO
 ========
@@ -29,4 +38,4 @@ I also wish to clean up the linking of the various components. Using cocoapods t
 
 FastttCamera
 ========
-The filtering software behind this application is the FastttCamera lirary by [Laura Skelton](https://github.com/lauraskelton) at [IFTTT](https://ifttt.com/), which I forked in order to expose the camera preview layer so that I could duplicate it to provide an AR-like interface.  This is fantastic software that wraps the core AVFoundation and GPUImage APIs, making it extremely easy to enhance and filter the live feed from the device camera. 
+The filtering software behind this application is the FastttCamera lirary by [Laura Skelton](https://github.com/lauraskelton) at [IFTTT](https://ifttt.com/), which I forked in order to expose the camera preview layer so that I could duplicate it to provide an AR-like interface.  This is fantastic software that wraps the core AVFoundation and GPUImage APIs, making it extremely easy to enhance and filter data from the camera. 

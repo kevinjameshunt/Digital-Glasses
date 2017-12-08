@@ -236,7 +236,7 @@ static NSString *linkCellIdentifier = @"DGLinkTableViewCell";
         if (_currentVideoIndex > -1 && _currentVideoIndex < [_videoDictsArray count]) {
             NSDictionary *videoDict = [_videoDictsArray objectAtIndex:_currentVideoIndex];
             NSString *videoFilename = [videoDict objectForKey:kDGVideoFileKey];
-            NSURL *videoURL = [[NSBundle mainBundle]URLForResource:videoFilename withExtension:@"MOV"];
+            NSURL *videoURL = [[NSBundle mainBundle]URLForResource:videoFilename withExtension:@"mp4"];
             
             // Create an AVPlayer
             AVPlayer *player = [AVPlayer playerWithURL:videoURL];

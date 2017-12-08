@@ -6,7 +6,6 @@ platform :ios, '9.0'
 
 def install_pods
   pod "FastttCamera/Filters", :path => "./submodules/FastttCamera/FastttCamera.podspec"
-  pod 'PebbleKit'
   pod 'Flurry-iOS-SDK/FlurrySDK', '7.8.2' #Analytics Pod
 end
 

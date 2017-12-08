@@ -8,7 +8,6 @@
 
 #import "DGHeadsetViewController.h"
 #import "DGAppDelegate.h"
-#import "DGPebbleManager.h"
 #import "DGFilterBase.h"
 #import "DGFilterRange.h"
 #import "DGFilterImageFactory.h"
@@ -84,7 +83,7 @@
     }
     
     // Pebble Watch support
-    [[DGPebbleManager sharedPebbleManager] setCommunicatorDelegate:self];
+//    [[DGPebbleManager sharedPebbleManager] setCommunicatorDelegate:self];
     
     // iCade support
     _control = [[iCadeReaderView alloc] initWithFrame:CGRectZero];
@@ -565,23 +564,23 @@
 
 #pragma mark - pebbleManagerDelegate
 
--(void)pebbleManagerDidConnectWithError:(NSError *)error {
-    if (error == nil) { // Show a connection successful message if there is no error
-        [self showMenuLabelsWithMessage:kDGConnectedLabel];
-    }
-}
-
--(void)pebbleManagerDidReceiveData:(NSDictionary *)dict {
-    if(BKM_IS_NOT_MAIN_THREAD()) {
-        BKM_REQUEUE_ON_MAIN_THREAD(dict);
-    } else {
-        // Loop through all keys and execute the sent instructions
-        for (NSNumber *key in [dict allKeys]) {
-            NSNumber *value  = [dict objectForKey:key];
-            [self executeInstruction:[key integerValue] withValue:[value boolValue]];
-        }
-    }
-}
+//-(void)pebbleManagerDidConnectWithError:(NSError *)error {
+//    if (error == nil) { // Show a connection successful message if there is no error
+//        [self showMenuLabelsWithMessage:kDGConnectedLabel];
+//    }
+//}
+//
+//-(void)pebbleManagerDidReceiveData:(NSDictionary *)dict {
+//    if(BKM_IS_NOT_MAIN_THREAD()) {
+//        BKM_REQUEUE_ON_MAIN_THREAD(dict);
+//    } else {
+//        // Loop through all keys and execute the sent instructions
+//        for (NSNumber *key in [dict allKeys]) {
+//            NSNumber *value  = [dict objectForKey:key];
+//            [self executeInstruction:[key integerValue] withValue:[value boolValue]];
+//        }
+//    }
+//}
 
 #pragma mark - Apple Watch
 

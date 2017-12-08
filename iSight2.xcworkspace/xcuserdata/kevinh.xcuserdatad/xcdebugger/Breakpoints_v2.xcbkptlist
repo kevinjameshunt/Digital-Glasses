@@ -410,7 +410,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.072898"
+            timestampString = "534447858.545902"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "341"
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.135798"
+            timestampString = "534447858.551435"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "147"
@@ -442,7 +442,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.136507"
+            timestampString = "534447858.551682"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "154"
@@ -458,7 +458,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.136964"
+            timestampString = "534447858.551918"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "140"
@@ -474,7 +474,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.137351"
+            timestampString = "534447858.552147"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "161"
@@ -490,7 +490,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.137789"
+            timestampString = "534447858.552412"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "234"
@@ -506,7 +506,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.138182"
+            timestampString = "534447858.552838"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "219"
@@ -522,7 +522,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.140421"
+            timestampString = "534447858.553129"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
@@ -538,7 +538,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DBInstructionsViewController.m"
-            timestampString = "533584529.140832"
+            timestampString = "534447858.553386"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -618,54 +618,6 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533576711.000622"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "577"
-            endingLineNumber = "577"
-            landmarkName = "-pebbleManagerDidReceiveData:"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[DGHeadsetViewController pebbleCommunicatorDidReceiveData:]"
-                  moduleName = "iSight2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/iSight2/ViewControllers/DGHeadsetViewController.m"
-                  timestampString = "533352640.115434"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "542"
-                  endingLineNumber = "542"
-                  offsetFromSymbolStart = "276">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[DGHeadsetViewController pebbleCommunicatorDidReceiveData:]"
-                  moduleName = "iSight2"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Volumes/MiniMoose/Dropbox/AppDocs/iSight/iSight2/iSight2/ViewControllers/DGHeadsetViewController.m"
-                  timestampString = "533352640.120857"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "542"
-                  endingLineNumber = "542"
-                  offsetFromSymbolStart = "292">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
             timestampString = "533576711.000722"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
@@ -673,22 +625,6 @@
             endingLineNumber = "606"
             landmarkName = "DGHeadsetViewController"
             landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "iSight2/ViewControllers/DGHeadsetViewController.m"
-            timestampString = "533576711.000872"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "579"
-            endingLineNumber = "579"
-            landmarkName = "-pebbleManagerDidReceiveData:"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy

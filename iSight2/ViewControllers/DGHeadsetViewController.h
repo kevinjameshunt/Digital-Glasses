@@ -13,14 +13,14 @@
 #import <FastttCamera/FastttFilterCamera.h>
 #import <GPUImage/GPUImage.h>
 
-#import <PebbleKit/PebbleKit.h>
-#import "DGPebbleManager.h"
+//#import <PebbleKit/PebbleKit.h>
+//#import "DGPebbleManager.h"
 
 #import <WatchConnectivity/WatchConnectivity.h>
 
 #import "iCadeReaderView.h"
 
-@interface DGHeadsetViewController : FastttFilterCamera <DGPebbleManagerDelegate, iCadeEventDelegate, WCSessionDelegate>
+@interface DGHeadsetViewController : FastttFilterCamera <iCadeEventDelegate, WCSessionDelegate> //, DGPebbleManagerDelegate>
 
 @property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UILabel *instructionlabel;

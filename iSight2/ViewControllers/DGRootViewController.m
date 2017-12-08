@@ -9,7 +9,7 @@
 
 #import "DGRootViewController.h"
 #import <QuartzCore/QuartzCore.h>
-#import "DGPebbleManager.h"
+//#import "DGPebbleManager.h"
 #import "Flurry.h"
 
 @implementation DGRootViewController {
@@ -31,7 +31,7 @@
     [Flurry logEvent:@"Main page loaded"];
     
     // Start communicating with Pebble if possible
-    [DGPebbleManager sharedPebbleManager];
+//    [DGPebbleManager sharedPebbleManager];
     
     // Round the buttons
     _magnifierButton.layer.cornerRadius = 10;

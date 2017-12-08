@@ -41,11 +41,10 @@
 		04A7A1121EB6342400DD3EA4 /* WatchControl.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 04A7A0F61EB6342400DD3EA4 /* WatchControl.app */; };
 		04A7A11D1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A11C1EB63A1D00DD3EA4 /* ISSingleControlInterfaceController.m */; };
 		04A7A1211EB643E800DD3EA4 /* ISControlsTableViewRowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */; };
-		04AB9BDC1FCDB7A00002F81E /* magnifier.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BD71FCDB79F0002F81E /* magnifier.MOV */; };
-		04AB9BDD1FCDB7A00002F81E /* pebblewatch.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BD81FCDB7A00002F81E /* pebblewatch.MOV */; };
-		04AB9BDE1FCDB7A00002F81E /* controller.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BD91FCDB7A00002F81E /* controller.MOV */; };
-		04AB9BDF1FCDB7A00002F81E /* applewatch.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BDA1FCDB7A00002F81E /* applewatch.MOV */; };
-		04AB9BE01FCDB7A00002F81E /* headset.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 04AB9BDB1FCDB7A00002F81E /* headset.MOV */; };
+		04F381951FD7361C00B0DE40 /* applewatch.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F381911FD7361B00B0DE40 /* applewatch.mp4 */; };
+		04F381961FD7361C00B0DE40 /* magnifier.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F381921FD7361C00B0DE40 /* magnifier.mp4 */; };
+		04F381971FD7361C00B0DE40 /* controller.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F381931FD7361C00B0DE40 /* controller.mp4 */; };
+		04F381981FD7361C00B0DE40 /* headset.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 04F381941FD7361C00B0DE40 /* headset.mp4 */; };
 		04FC26661B9363EE002D7458 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26651B9363EE002D7458 /* main.m */; };
 		04FC26691B9363EE002D7458 /* DGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26681B9363EE002D7458 /* DGAppDelegate.m */; };
 		04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FC266A1B9363EE002D7458 /* iSight2.xcdatamodeld */; };
@@ -53,7 +52,6 @@
 		04FC26741B9363EE002D7458 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26731B9363EE002D7458 /* Images.xcassets */; };
 		04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04FC26751B9363EE002D7458 /* LaunchScreen.xib */; };
 		04FC26831B9363EE002D7458 /* iSight2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC26821B9363EE002D7458 /* iSight2Tests.m */; };
-		04FDF79F1B9A2A0700E01984 /* DGPebbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FDF79D1B9A2A0700E01984 /* DGPebbleManager.m */; };
 		09AAC01F70327A1D3C224D6D /* libPods-WatchControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7CDD3D716FA37E60AEE8B38 /* libPods-WatchControl.a */; };
 		4B901E42B22C95AFAE7D1904 /* libPods-WatchControl Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8DFE071CC7C08519AD71634 /* libPods-WatchControl Extension.a */; };
 		7312C722FC7D234C9E441597 /* libPods-iSight2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DC657304AC0A1F8A1E9F096 /* libPods-iSight2.a */; };
@@ -166,11 +164,10 @@
 		04A7A11E1EB63AF300DD3EA4 /* DGConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DGConstants.h; sourceTree = "<group>"; };
 		04A7A11F1EB643E800DD3EA4 /* ISControlsTableViewRowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISControlsTableViewRowController.h; sourceTree = "<group>"; };
 		04A7A1201EB643E800DD3EA4 /* ISControlsTableViewRowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISControlsTableViewRowController.m; sourceTree = "<group>"; };
-		04AB9BD71FCDB79F0002F81E /* magnifier.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = magnifier.MOV; sourceTree = "<group>"; };
-		04AB9BD81FCDB7A00002F81E /* pebblewatch.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pebblewatch.MOV; sourceTree = "<group>"; };
-		04AB9BD91FCDB7A00002F81E /* controller.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = controller.MOV; sourceTree = "<group>"; };
-		04AB9BDA1FCDB7A00002F81E /* applewatch.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = applewatch.MOV; sourceTree = "<group>"; };
-		04AB9BDB1FCDB7A00002F81E /* headset.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = headset.MOV; sourceTree = "<group>"; };
+		04F381911FD7361B00B0DE40 /* applewatch.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = applewatch.mp4; sourceTree = "<group>"; };
+		04F381921FD7361C00B0DE40 /* magnifier.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = magnifier.mp4; sourceTree = "<group>"; };
+		04F381931FD7361C00B0DE40 /* controller.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = controller.mp4; sourceTree = "<group>"; };
+		04F381941FD7361C00B0DE40 /* headset.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = headset.mp4; sourceTree = "<group>"; };
 		04FC26601B9363EE002D7458 /* iSight2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSight2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04FC26641B9363EE002D7458 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04FC26651B9363EE002D7458 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -308,11 +305,10 @@
 		047576FA1FC4E31000C8E45B /* videos */ = {
 			isa = PBXGroup;
 			children = (
-				04AB9BDA1FCDB7A00002F81E /* applewatch.MOV */,
-				04AB9BD91FCDB7A00002F81E /* controller.MOV */,
-				04AB9BDB1FCDB7A00002F81E /* headset.MOV */,
-				04AB9BD71FCDB79F0002F81E /* magnifier.MOV */,
-				04AB9BD81FCDB7A00002F81E /* pebblewatch.MOV */,
+				04F381911FD7361B00B0DE40 /* applewatch.mp4 */,
+				04F381931FD7361C00B0DE40 /* controller.mp4 */,
+				04F381941FD7361C00B0DE40 /* headset.mp4 */,
+				04F381921FD7361C00B0DE40 /* magnifier.mp4 */,
 			);
 			path = videos;
 			sourceTree = "<group>";
@@ -623,24 +619,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				047576EB1FC27C7900C8E45B /* twitter.png in Resources */,
-				04AB9BDF1FCDB7A00002F81E /* applewatch.MOV in Resources */,
-				04AB9BDD1FCDB7A00002F81E /* pebblewatch.MOV in Resources */,
 				047576F01FC4D11400C8E45B /* videoList.json in Resources */,
 				04542E8D1EE89CF20086B4AD /* LaunchImage.png in Resources */,
+				04F381951FD7361C00B0DE40 /* applewatch.mp4 in Resources */,
 				047577021FC4F7C200C8E45B /* googlecardboard.png in Resources */,
 				047576F81FC4DD8800C8E45B /* pause_btn.png in Resources */,
 				047577001FC4F25600C8E45B /* headset_btn.png in Resources */,
 				047576F91FC4DD8800C8E45B /* play_btn.png in Resources */,
+				04F381981FD7361C00B0DE40 /* headset.mp4 in Resources */,
 				047576FE1FC4EFDB00C8E45B /* magnifier_btn.png in Resources */,
 				047576EA1FC27C7900C8E45B /* facebook.png in Resources */,
 				047576E31FC275D500C8E45B /* close_btn.png in Resources */,
 				04FC26721B9363EE002D7458 /* Main.storyboard in Resources */,
-				04AB9BE01FCDB7A00002F81E /* headset.MOV in Resources */,
-				04AB9BDE1FCDB7A00002F81E /* controller.MOV in Resources */,
 				04FC26771B9363EE002D7458 /* LaunchScreen.xib in Resources */,
 				047577231FC505D800C8E45B /* adList.json in Resources */,
+				04F381961FD7361C00B0DE40 /* magnifier.mp4 in Resources */,
+				04F381971FD7361C00B0DE40 /* controller.mp4 in Resources */,
 				04FC26741B9363EE002D7458 /* Images.xcassets in Resources */,
-				04AB9BDC1FCDB7A00002F81E /* magnifier.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,7 +817,6 @@
 				047576E11FC2729900C8E45B /* DBSettingsViewController.m in Sources */,
 				047576E61FC2798E00C8E45B /* DGInfoViewController.m in Sources */,
 				047576CC1FC2678000C8E45B /* DGCapturePreviewViewController.m in Sources */,
-				04FDF79F1B9A2A0700E01984 /* DGPebbleManager.m in Sources */,
 				047576D51FC267C400C8E45B /* DGFilterBase.m in Sources */,
 				047576CF1FC2679500C8E45B /* DGTestingUIOptionTableViewCell.m in Sources */,
 				04FC266C1B9363EE002D7458 /* iSight2.xcdatamodeld in Sources */,

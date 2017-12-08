@@ -148,6 +148,7 @@
 		047576FF1FC4F25500C8E45B /* headset_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = headset_btn.png; sourceTree = "<group>"; };
 		047577011FC4F7C200C8E45B /* googlecardboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googlecardboard.png; sourceTree = "<group>"; };
 		047577221FC505D700C8E45B /* adList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = adList.json; sourceTree = "<group>"; };
+		049F58E21FDB163A00578832 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		04A7A0F61EB6342400DD3EA4 /* WatchControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A7A0F91EB6342400DD3EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		04A7A0FB1EB6342400DD3EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -343,6 +344,7 @@
 		04FC26571B9363EE002D7458 = {
 			isa = PBXGroup;
 			children = (
+				049F58E21FDB163A00578832 /* README.md */,
 				04FC26621B9363EE002D7458 /* iSight2 */,
 				04FC267F1B9363EE002D7458 /* iSight2Tests */,
 				04A7A0F71EB6342400DD3EA4 /* WatchControl */,

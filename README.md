@@ -11,6 +11,8 @@ More information in this video:
 
 [![Video of the app in action](https://img.youtube.com/vi/xJJuWGkk544/0.jpg)](http://www.youtube.com/watch?v=xJJuWGkk544)
 
+NOTE: Pebble is no long accepting whitelisting requests for new companion apps for iOS, so the version of this app in the app store does not support pebble. However, all the source code required to compile and run this app and the Pebble app are include if anyone wants it for personal use. 
+
 Features
 ========
 * Use the Magnifier mode to zoom and enlarge text and everyday objects. You can also increase/decrease brightness, color saturation, contrast, and activate/deactivate the flashlight on the phone for increased visibility. 
